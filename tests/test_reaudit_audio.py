@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import struct
+import sys
 import tempfile
 import unittest
 import warnings
@@ -139,6 +140,11 @@ class ReauditAudioTests(unittest.TestCase):
                     scale = 1 << (width * 8 - 1)
                     values = (0, scale // 2, -scale // 2, -scale, scale - 1)
                     self.write_pcm(b''.join(x.to_bytes(width, 'big', signed=True) for x in values), width=width, kind='aiff', compression=compression)
+                    # CPython 3.10 aifc rejects sowt before reading PCM.
+                    if compression == b'sowt' and sys.version_info < (3, 11):
+                        with self.assertRaisesRegex(ValueError, 'unsupported compression type'):
+                            read_media_segment_pcm16_mono(self.media, Fraction(0), Fraction(5, 48000))
+                        continue
                     if compression == b'sowt' and width != 2:
                         with self.assertRaises(ValueError):
                             read_media_segment_pcm16_mono(self.media, Fraction(0), Fraction(5, 48000))
@@ -242,7 +248,8 @@ class ReauditAudioTests(unittest.TestCase):
             with self.subTest(width=width):
                 self.write_pcm(bytes(width * 4800), width=width, kind='aiff', compression=b'sowt')
                 self.make_aaf(4800, kind='aiff')
-                self.assert_backends(0, diagnostic='16-bit')
+                diagnostic = 'unsupported compression type' if sys.version_info < (3, 11) else '16-bit'
+                self.assert_backends(0, diagnostic=diagnostic)
 
     def test_missing_media_is_explicitly_retained(self):
         self.write_pcm(b'\0\0' * 4800)
@@ -304,6 +311,13 @@ class ReauditAudioTests(unittest.TestCase):
             finally:
                 slot.edit_rate = original_rate
 
+    def test_silent_sowt_requires_decoder_support_before_removal(self):
+        self.write_pcm(b'\0\0' * 4800, kind='aiff', compression=b'sowt')
+        self.make_aaf(4800, kind='aiff')
+        if sys.version_info < (3, 11):
+            self.assert_backends(0, diagnostic='unsupported compression type')
+        else:
+            self.assert_backends(1)
 
 if __name__ == '__main__':
     unittest.main()

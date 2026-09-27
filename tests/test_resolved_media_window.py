@@ -109,7 +109,7 @@ class ResolvedMediaWindowTests(unittest.TestCase):
             comp = add_comp(f)
             node = master.create_source_clip(1, start=48000, length=48000, media_kind='sound')
             comp.create_timeline_slot(25).segment = node
-            self.assertEqual(_resolve_wave_path_for_sourceclip(f, node, edit_rate=25), self.wav)
+            self.assertEqual(_resolve_wave_path_for_sourceclip(f, node, edit_rate=25), self.wav.resolve())
             with self.assertRaisesRegex(UnsupportedMediaMapping, 'does not prove sample units'):
                 sourceclip_audio_timing(f, 25, node, self.wav)
         self.assertEqual(count_resolvable_timeline_wavs(self.path), 1)

@@ -134,7 +134,7 @@ class ReauditIOTests(unittest.TestCase):
         streams = self.root / 'pair_streams'
         original_mkdir = Path.mkdir
         def race(directory, *args, **kwargs):
-            if directory == streams:
+            if directory.resolve() == streams.resolve():
                 original_mkdir(directory)
                 (directory / 'other-export').write_bytes(b'completed essence')
                 raise FileExistsError('another export owns the same stem')
@@ -150,7 +150,7 @@ class ReauditIOTests(unittest.TestCase):
         output = self.root / 'pair.xml'
         original_open = Path.open
         def race(file, mode='r', *args, **kwargs):
-            if file == output and mode == 'xb':
+            if mode == 'xb' and file.resolve() == output.resolve():
                 with original_open(file,'wb') as stream:
                     stream.write(b'other export')
                 raise FileExistsError('another XML was created')

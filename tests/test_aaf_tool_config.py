@@ -41,7 +41,7 @@ class AafToolConfigTests(unittest.TestCase):
                     return_value=[root, root],
                 ):
                     aaf_tool_config.install_media_search_roots_env()
-                self.assertEqual(os.environ.get("AAF_MEDIA_ROOTS"), str(root))
+                self.assertEqual(os.environ.get("AAF_MEDIA_ROOTS"), str(root.resolve()))
             finally:
                 if old is None:
                     os.environ.pop("AAF_MEDIA_ROOTS", None)

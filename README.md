@@ -100,6 +100,7 @@ The local configuration is ignored by Git. `AAF_MEDIA_ROOTS` also accepts semico
 
 - **Classification is heuristic.** Mixed speech/music, short fragments and effects can be ambiguous. A successful structural check does not prove every label is correct.
 - **Structure can constrain layout.** Effects, transitions, incompatible clocks, protected tracks and unknown material may prevent an otherwise desirable move. Preserving rendering and timing takes precedence over compact packing.
+- **Python 3.10 has a narrower AIFF decoder.** Its standard `aifc` module rejects little-endian AIFC (`sowt`); direct analysis reports the limitation and retains the clip. Python 3.11-3.12 can analyze 16-bit `sowt`. Use Python 3.12 for the documented installation.
 - **Host compatibility varies.** PyAAF2 fallback and AAF SDK conversion have different limits. Malformed containers and unsupported formats may be rejected explicitly.
 - **Keep original media and inspect important results in your DAW.** Automated AAF checks do not replace listening or a target-application import check.
 - **Metadata is not promised to remain byte-for-byte identical.** Processing changes timeline objects, and conversion or compatibility repair may rewrite container representation. See the preservation checks and their limits in [validation coverage](docs/validation.md).

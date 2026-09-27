@@ -15,7 +15,7 @@ class DistributionPublishTests(TestCase):
             (target / 'marker').write_text('previous')
             original = Path.rename
             def rename(source, destination):
-                if source == stage:
+                if source.resolve() == stage.resolve():
                     raise OSError('promotion failed')
                 return original(source, destination)
             with mock.patch.object(Path, 'rename', rename):
