@@ -1,0 +1,61 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      public_corpus:
+        description: Download and verify the pinned public structure corpus
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tests-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  core:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.10', '3.11', '3.12']
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install core packages
+        run: python -m pip install -e ./aaf_io -e ./aaf_speech_filter -r requirements-dev.txt
+      - name: CLI smoke check
+        run: python aaf_pipeline.py --help
+      - name: Unit tests
+        run: python -m unittest discover tests
+
+  public-corpus:
+    if: github.event_name == 'workflow_dispatch' && inputs.public_corpus
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+      - name: Install core packages
+        run: python -m pip install -e ./aaf_io -e ./aaf_speech_filter -r requirements-dev.txt
+      - name: Provision and verify fixtures
+        run: |
+          python scripts/fetch_aaf_corpus.py
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python scripts/fetch_aaf_corpus.py --verify-only
+      - name: Structure and save/reopen corpus
+        run: python scripts/check_aaf_corpus.py --stage structure --report-dir __manual_checks/public-structure

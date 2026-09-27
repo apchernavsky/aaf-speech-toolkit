@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling>=1.21"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aaf-speech-filter"
+version = "0.1.0"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "aaf-io>=0.1.0",
+  "PyAAF2>=1.7.1,<1.8",
+  "numpy>=1.23",
+  "packaging>=21",
+]
+
+[project.optional-dependencies]
+yamnet = ["tensorflow>=2.15", "tensorflow-hub>=0.16", "tf-keras>=2.15"]
+
+[project.scripts]
+aaf-speech-filter = "aaf_speech_filter.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["aaf_speech_filter"]

@@ -1,0 +1,4434 @@
+{
+  "schema": 1,
+  "description": "All unique candidates found in public AAF corpus research on 2026-09-23. External regression fixtures; repository license metadata does not imply a license for every media asset.",
+  "repositories": {
+    "agfline/LibAAF": {
+      "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+      "license": "GPL-2.0",
+      "url": "https://github.com/agfline/LibAAF"
+    },
+    "dneg/aaf": {
+      "commit": "dfc1931bde150b368b50a1f7121f3d9f4305d2da",
+      "license": null,
+      "url": "https://github.com/dneg/aaf"
+    },
+    "iluvcapra/rust-aaf": {
+      "commit": "bed9ac422081ec495a4f8e1571f1ad442c244352",
+      "license": null,
+      "url": "https://github.com/iluvcapra/rust-aaf"
+    },
+    "markreidvfx/pyaaf": {
+      "commit": "223daf3e60d098ec3d87d9138b8cabe2cf7b454b",
+      "license": "MIT",
+      "url": "https://github.com/markreidvfx/pyaaf"
+    },
+    "markreidvfx/pyaaf2": {
+      "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+      "license": "MIT",
+      "url": "https://github.com/markreidvfx/pyaaf2"
+    },
+    "nexgenta/aaf": {
+      "commit": "68cc62ed893d43204b5919d4b34d3eab6b0050b9",
+      "license": null,
+      "url": "https://github.com/nexgenta/aaf"
+    },
+    "OpenTimelineIO/otio-aaf-adapter": {
+      "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+      "license": "Apache-2.0",
+      "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter"
+    }
+  },
+  "assets": [
+    {
+      "path": "inputs/f7d3b18fe66635d538cee3d6ec07dc385a9d3b5a.aaf",
+      "bytes": 393216,
+      "git_blob_sha": "f7d3b18fe66635d538cee3d6ec07dc385a9d3b5a",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Audio_Levels.aaf"
+      }
+    },
+    {
+      "path": "inputs/71e29595535b09a5162e043cc2d20391a349a886.aaf",
+      "bytes": 200704,
+      "git_blob_sha": "71e29595535b09a5162e043cc2d20391a349a886",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Empty.aaf"
+      }
+    },
+    {
+      "path": "inputs/78cb1abb57d0be38d2c626790b7843723511de64.aaf",
+      "bytes": 233472,
+      "git_blob_sha": "78cb1abb57d0be38d2c626790b7843723511de64",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_MP3_External.aaf"
+      }
+    },
+    {
+      "path": "inputs/e1d0b9a7dbe65c2a7c5be210a8e1309d4ae3692b.aaf",
+      "bytes": 208896,
+      "git_blob_sha": "e1d0b9a7dbe65c2a7c5be210a8e1309d4ae3692b",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Markers.aaf"
+      }
+    },
+    {
+      "path": "inputs/9a87f788f81db84ab4ef154807153c51c391ff8a.aaf",
+      "bytes": 245760,
+      "git_blob_sha": "9a87f788f81db84ab4ef154807153c51c391ff8a",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Mono_Clip_Positioning.aaf"
+      }
+    },
+    {
+      "path": "inputs/876ae7f64c189678888e6bc67c906bcd70eb63c0.aaf",
+      "bytes": 266240,
+      "git_blob_sha": "876ae7f64c189678888e6bc67c906bcd70eb63c0",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Multichannel_5.1_single_source.aaf"
+      }
+    },
+    {
+      "path": "inputs/5e80343c71112587fc4c608643fe0691883b0d0f.aaf",
+      "bytes": 278528,
+      "git_blob_sha": "5e80343c71112587fc4c608643fe0691883b0d0f",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Multichannel_7.1_single_source.aaf"
+      }
+    },
+    {
+      "path": "inputs/cb20d7d7fbdddd2334449ee8c0c644f0fef20fe6.aaf",
+      "bytes": 241664,
+      "git_blob_sha": "cb20d7d7fbdddd2334449ee8c0c644f0fef20fe6",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Multichannel_stereo_single_source.aaf"
+      }
+    },
+    {
+      "path": "inputs/580aec537fdefb30187a0265497d5f6bc71c39b4.aaf",
+      "bytes": 278528,
+      "git_blob_sha": "580aec537fdefb30187a0265497d5f6bc71c39b4",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Stereo_Clip_Positioning.aaf"
+      }
+    },
+    {
+      "path": "inputs/a6dc0238feed0010d7b4c0d9df995886b57f0e71.aaf",
+      "bytes": 446464,
+      "git_blob_sha": "a6dc0238feed0010d7b4c0d9df995886b57f0e71",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Audio_Levels.aaf"
+      }
+    },
+    {
+      "path": "inputs/703570eaa4a7472fab56a14a06ab469e42a8e0e4.aaf",
+      "bytes": 430080,
+      "git_blob_sha": "703570eaa4a7472fab56a14a06ab469e42a8e0e4",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Audio_Pan.aaf"
+      }
+    },
+    {
+      "path": "inputs/6591d61892b7778d91a99106bb470765a1814bd0.aaf",
+      "bytes": 524288,
+      "git_blob_sha": "6591d61892b7778d91a99106bb470765a1814bd0",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Audio_Warp.aaf"
+      }
+    },
+    {
+      "path": "inputs/2fe2aa06000d5ba1a0541cd1336c867b8cc90ab5.aaf",
+      "bytes": 397312,
+      "git_blob_sha": "2fe2aa06000d5ba1a0541cd1336c867b8cc90ab5",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Clip_Mute.aaf"
+      }
+    },
+    {
+      "path": "inputs/db16f255939721d05f31e4e4dec578e9a5fdaa9e.aaf",
+      "bytes": 352256,
+      "git_blob_sha": "db16f255939721d05f31e4e4dec578e9a5fdaa9e",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Empty.aaf"
+      }
+    },
+    {
+      "path": "inputs/cf5cd56af48c5ac06a5f904e6461d702670c07e7.aaf",
+      "bytes": 544768,
+      "git_blob_sha": "cf5cd56af48c5ac06a5f904e6461d702670c07e7",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Fades.aaf"
+      }
+    },
+    {
+      "path": "inputs/4c6cceb09b3b0746b44ed612188aa7b159727c0a.aaf",
+      "bytes": 417792,
+      "git_blob_sha": "4c6cceb09b3b0746b44ed612188aa7b159727c0a",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Markers.aaf"
+      }
+    },
+    {
+      "path": "inputs/f3a54f414da2004f9c88be1606666f2d23fae7ce.aaf",
+      "bytes": 409600,
+      "git_blob_sha": "f3a54f414da2004f9c88be1606666f2d23fae7ce",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Metadata.aaf"
+      }
+    },
+    {
+      "path": "inputs/d4a49d6b3f3d0589b7c3b275a821054cc39bd143.aaf",
+      "bytes": 405504,
+      "git_blob_sha": "d4a49d6b3f3d0589b7c3b275a821054cc39bd143",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_100.aaf"
+      }
+    },
+    {
+      "path": "inputs/fd65fe051412ae9e5bc4402924801166f91d79cb.aaf",
+      "bytes": 405504,
+      "git_blob_sha": "fd65fe051412ae9e5bc4402924801166f91d79cb",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_119.88_DF.aaf"
+      }
+    },
+    {
+      "path": "inputs/42806d112eadc498e9f9e24e36e30025790f3c22.aaf",
+      "bytes": 405504,
+      "git_blob_sha": "42806d112eadc498e9f9e24e36e30025790f3c22",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_119.88_NDF.aaf"
+      }
+    },
+    {
+      "path": "inputs/08cc7820141def78b879712d865fbc308f83b2ec.aaf",
+      "bytes": 405504,
+      "git_blob_sha": "08cc7820141def78b879712d865fbc308f83b2ec",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_120_DF.aaf"
+      }
+    },
+    {
+      "path": "inputs/39632c15ab2bbde262d03a7c334feb638984bd64.aaf",
+      "bytes": 405504,
+      "git_blob_sha": "39632c15ab2bbde262d03a7c334feb638984bd64",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_120_NDF.aaf"
+      }
+    },
+    {
+      "path": "inputs/d87ebda73d552a665eeed4bb527611b3550b865e.aaf",
+      "bytes": 425984,
+      "git_blob_sha": "d87ebda73d552a665eeed4bb527611b3550b865e",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_23.976.aaf"
+      }
+    },
+    {
+      "path": "inputs/552f79dd30748f5e6cf703cc4ec31e5918c614d3.aaf",
+      "bytes": 425984,
+      "git_blob_sha": "552f79dd30748f5e6cf703cc4ec31e5918c614d3",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_24.aaf"
+      }
+    },
+    {
+      "path": "inputs/369b0e0d3d160d882ac35789bc8280a151c2e389.aaf",
+      "bytes": 421888,
+      "git_blob_sha": "369b0e0d3d160d882ac35789bc8280a151c2e389",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_25.aaf"
+      }
+    },
+    {
+      "path": "inputs/1dbe7124e1886fc3850256f70042634aeac80391.aaf",
+      "bytes": 409600,
+      "git_blob_sha": "1dbe7124e1886fc3850256f70042634aeac80391",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_29.97_DF.aaf"
+      }
+    },
+    {
+      "path": "inputs/ae2d353c57b1a9e95ff018d303d79a63c785ac06.aaf",
+      "bytes": 409600,
+      "git_blob_sha": "ae2d353c57b1a9e95ff018d303d79a63c785ac06",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_29.97_NDF.aaf"
+      }
+    },
+    {
+      "path": "inputs/a3ce1e5fa028d553a8444184820cd9a3dc5b3198.aaf",
+      "bytes": 405504,
+      "git_blob_sha": "a3ce1e5fa028d553a8444184820cd9a3dc5b3198",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_30_DF.aaf"
+      }
+    },
+    {
+      "path": "inputs/7e400cd2fca1a9eb423424f69f3d055187a3096e.aaf",
+      "bytes": 405504,
+      "git_blob_sha": "7e400cd2fca1a9eb423424f69f3d055187a3096e",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_30_NDF.aaf"
+      }
+    },
+    {
+      "path": "inputs/d86e9d69bece1ef5724ec48ce97f4b2f1d437798.aaf",
+      "bytes": 405504,
+      "git_blob_sha": "d86e9d69bece1ef5724ec48ce97f4b2f1d437798",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_50.aaf"
+      }
+    },
+    {
+      "path": "inputs/610eb06f2079dd32caa06d059c8947d8f3d219e1.aaf",
+      "bytes": 405504,
+      "git_blob_sha": "610eb06f2079dd32caa06d059c8947d8f3d219e1",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_59.94_DF.aaf"
+      }
+    },
+    {
+      "path": "inputs/213fbb48183045a4da1999674a1cab37d972fca9.aaf",
+      "bytes": 405504,
+      "git_blob_sha": "213fbb48183045a4da1999674a1cab37d972fca9",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_59.94_NDF.aaf"
+      }
+    },
+    {
+      "path": "inputs/f497755e3028d37529fd9145871fd49a30a8b57e.aaf",
+      "bytes": 405504,
+      "git_blob_sha": "f497755e3028d37529fd9145871fd49a30a8b57e",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_60_DF.aaf"
+      }
+    },
+    {
+      "path": "inputs/60d15b66515662b62f5ed3a95eee25ec8c298753.aaf",
+      "bytes": 405504,
+      "git_blob_sha": "60d15b66515662b62f5ed3a95eee25ec8c298753",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_60_NDF.aaf"
+      }
+    },
+    {
+      "path": "inputs/8d9b088f8bde263ffef1f4c5c8674e42cfcd075e.aaf",
+      "bytes": 393216,
+      "git_blob_sha": "8d9b088f8bde263ffef1f4c5c8674e42cfcd075e",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Track_Solo_Mute.aaf"
+      }
+    },
+    {
+      "path": "inputs/9135acc8c6bb8358e3e6b2b809bbbd14bc7d9ca7.aaf",
+      "bytes": 352256,
+      "git_blob_sha": "9135acc8c6bb8358e3e6b2b809bbbd14bc7d9ca7",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PR_AIFF_Internal.aaf"
+      }
+    },
+    {
+      "path": "inputs/a23196b2f1385371817e518914d8abb1ac027b51.aaf",
+      "bytes": 303104,
+      "git_blob_sha": "a23196b2f1385371817e518914d8abb1ac027b51",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PR_Audio_Levels-noBTM.aaf"
+      }
+    },
+    {
+      "path": "inputs/c0e24dc3784881ff0a1c46c26df7b0048735d036.aaf",
+      "bytes": 271872,
+      "git_blob_sha": "c0e24dc3784881ff0a1c46c26df7b0048735d036",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PR_Audio_Pan-noBTM.aaf"
+      }
+    },
+    {
+      "path": "inputs/06ccd493227a6f5d19c59dfd744fdeb78e746321.aaf",
+      "bytes": 256000,
+      "git_blob_sha": "06ccd493227a6f5d19c59dfd744fdeb78e746321",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PR_Clip_length_beyond_EOF.aaf"
+      }
+    },
+    {
+      "path": "inputs/b62af18123c6c398b5b8be52a0b8aad27e2936eb.aaf",
+      "bytes": 363008,
+      "git_blob_sha": "b62af18123c6c398b5b8be52a0b8aad27e2936eb",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PR_Fades.aaf"
+      }
+    },
+    {
+      "path": "inputs/a6b129c50d4285ba3a56e078997922f4f43434f4.aaf",
+      "bytes": 246784,
+      "git_blob_sha": "a6b129c50d4285ba3a56e078997922f4f43434f4",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PR_WAV_External_sub_sub_directory_UTF8.aaf"
+      }
+    },
+    {
+      "path": "inputs/8c5c8e43fb3eae090717e77853b1266b6e57a8fa.aaf",
+      "bytes": 352256,
+      "git_blob_sha": "8c5c8e43fb3eae090717e77853b1266b6e57a8fa",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PR_WAV_Internal.aaf"
+      }
+    },
+    {
+      "path": "inputs/5af9f32c8b9a086516e6ca841d0eb60b9a1d7bee.aaf",
+      "bytes": 295424,
+      "git_blob_sha": "5af9f32c8b9a086516e6ca841d0eb60b9a1d7bee",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_AIFF_External.aaf"
+      }
+    },
+    {
+      "path": "inputs/9d26cfd47c5837695595eb775bcbe2f78ea2a1e3.aaf",
+      "bytes": 401408,
+      "git_blob_sha": "9d26cfd47c5837695595eb775bcbe2f78ea2a1e3",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_Audio_Levels-noEMCC-noExpTracksAsMultiChannel.aaf"
+      }
+    },
+    {
+      "path": "inputs/f1230a67264ba784359b9855d17d8f5715128524.aaf",
+      "bytes": 713728,
+      "git_blob_sha": "f1230a67264ba784359b9855d17d8f5715128524",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_Fades.aaf"
+      }
+    },
+    {
+      "path": "inputs/4fd9a59463ebf9050a0f8aa7f377efa21eac15fc.aaf",
+      "bytes": 713728,
+      "git_blob_sha": "4fd9a59463ebf9050a0f8aa7f377efa21eac15fc",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_Fades_no_handles.aaf"
+      }
+    },
+    {
+      "path": "inputs/915c17605928688febacf5af0c6aa6c9ba296926.aaf",
+      "bytes": 291840,
+      "git_blob_sha": "915c17605928688febacf5af0c6aa6c9ba296926",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_MXF_External.aaf"
+      }
+    },
+    {
+      "path": "inputs/cb96d4d60ca7e976e8084e423b92e094d16e78cf.aaf",
+      "bytes": 435712,
+      "git_blob_sha": "cb96d4d60ca7e976e8084e423b92e094d16e78cf",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_Multichannel_5.1_multi_source.aaf"
+      }
+    },
+    {
+      "path": "inputs/c29a263a35b20cd493709554588a8c3b96d5eb96.aaf",
+      "bytes": 485376,
+      "git_blob_sha": "c29a263a35b20cd493709554588a8c3b96d5eb96",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_Multichannel_7.1_multi_source.aaf"
+      }
+    },
+    {
+      "path": "inputs/4e57a300907aa18fea6e0d0336ff06f2281cc3b5.aaf",
+      "bytes": 336384,
+      "git_blob_sha": "4e57a300907aa18fea6e0d0336ff06f2281cc3b5",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_Multichannel_stereo_multi_source.aaf"
+      }
+    },
+    {
+      "path": "inputs/84fb0d0ce2ddffd2a7f7241a0ba25058745bd765.aaf",
+      "bytes": 371712,
+      "git_blob_sha": "84fb0d0ce2ddffd2a7f7241a0ba25058745bd765",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_PCM_Internal.aaf"
+      }
+    },
+    {
+      "path": "inputs/050f8e390690b675a63dc398afea96290d1bdde4.aaf",
+      "bytes": 300032,
+      "git_blob_sha": "050f8e390690b675a63dc398afea96290d1bdde4",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_UTF8_EssencePath.aaf"
+      }
+    },
+    {
+      "path": "inputs/e53b2bee80b84331a9cccca419f9969f4b2c9928.aaf",
+      "bytes": 299520,
+      "git_blob_sha": "e53b2bee80b84331a9cccca419f9969f4b2c9928",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_WAV_External.aaf"
+      }
+    },
+    {
+      "path": "inputs/29fab6b0690d434a95cabc245f0ae8803c37f8d6.aaf",
+      "bytes": 285696,
+      "git_blob_sha": "29fab6b0690d434a95cabc245f0ae8803c37f8d6",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_WAV_External_same_directory.aaf"
+      }
+    },
+    {
+      "path": "inputs/19747d1635797b3eed0928105ceb854a88d0633a.aaf",
+      "bytes": 285696,
+      "git_blob_sha": "19747d1635797b3eed0928105ceb854a88d0633a",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_WAV_External_sub_directory.aaf"
+      }
+    },
+    {
+      "path": "inputs/26c61578c8f58d3a434a6301482a15600db39f75.aaf",
+      "bytes": 358912,
+      "git_blob_sha": "26c61578c8f58d3a434a6301482a15600db39f75",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_de.aaf"
+      }
+    },
+    {
+      "path": "inputs/63c6c18d1319e06a6804dad24d0fa57ad030842e.aaf",
+      "bytes": 358912,
+      "git_blob_sha": "63c6c18d1319e06a6804dad24d0fa57ad030842e",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_en.aaf"
+      }
+    },
+    {
+      "path": "inputs/ef0d90f2f4cf7c1ac1ad8fef64554f6c28cc7136.aaf",
+      "bytes": 358912,
+      "git_blob_sha": "ef0d90f2f4cf7c1ac1ad8fef64554f6c28cc7136",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_es.aaf"
+      }
+    },
+    {
+      "path": "inputs/59bfa1983df30adbfd291ce48c8b49e689c076bb.aaf",
+      "bytes": 358912,
+      "git_blob_sha": "59bfa1983df30adbfd291ce48c8b49e689c076bb",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_fr.aaf"
+      }
+    },
+    {
+      "path": "inputs/806a8d05b786a4ecf86e66946b5595a70df89452.aaf",
+      "bytes": 358912,
+      "git_blob_sha": "806a8d05b786a4ecf86e66946b5595a70df89452",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_ja.aaf"
+      }
+    },
+    {
+      "path": "inputs/f4b1c556ccaae0f76b10ff90508e1dc9f7a8d2eb.aaf",
+      "bytes": 358912,
+      "git_blob_sha": "f4b1c556ccaae0f76b10ff90508e1dc9f7a8d2eb",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_ko.aaf"
+      }
+    },
+    {
+      "path": "inputs/e00b8029c915b17e7bc7bb447682f9757a07cbec.aaf",
+      "bytes": 358912,
+      "git_blob_sha": "e00b8029c915b17e7bc7bb447682f9757a07cbec",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_zh_CN.aaf"
+      }
+    },
+    {
+      "path": "inputs/4ef84b1c559c0bd4fc0b7398df4d80ae6dc875a6.aaf",
+      "bytes": 358912,
+      "git_blob_sha": "4ef84b1c559c0bd4fc0b7398df4d80ae6dc875a6",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_zh_TW.aaf"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/LICENSE",
+      "bytes": 17711,
+      "git_blob_sha": "9bd56be5c1c64b53b529170a4068f185966bc4d9",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/LICENSE"
+      }
+    },
+    {
+      "path": "media/agfline__LibAAF/test/aaf/M\u00e9dia AAF/\u82b1/bb6deb92-04b8-4b2a-9d6f-cd840000007c.wav",
+      "bytes": 16442,
+      "git_blob_sha": "618d19ae1044d10795722cbc09fa556eb06ebd69",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/M%C3%A9dia%20AAF/%E8%8A%B1/bb6deb92-04b8-4b2a-9d6f-cd840000007c.wav"
+      }
+    },
+    {
+      "path": "media/agfline__LibAAF/test/aaf/PT_WAV_ExtehcrfPFTBxvdzJCBB.wav",
+      "bytes": 153844,
+      "git_blob_sha": "4018eff7e045b4e679c5e51cabcf218a8382a779",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_WAV_ExtehcrfPFTBxvdzJCBB.wav"
+      }
+    },
+    {
+      "path": "media/agfline__LibAAF/test/aaf/PT_WAV_External_sub_directory/PT_WAV_ExterqqqHXSBxbzcJCBB.wav",
+      "bytes": 153844,
+      "git_blob_sha": "6aa441f283b89e7852aa708f41ed70686a02abf6",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_WAV_External_sub_directory/PT_WAV_ExterqqqHXSBxbzcJCBB.wav"
+      }
+    },
+    {
+      "path": "media/agfline__LibAAF/test/aaf/\u0627\u0644\u0641\u0648\u0636\u0649/PT_UTF8_EsszxcxBYZCdpbxHBBB.wav",
+      "bytes": 31786,
+      "git_blob_sha": "39f2f3c5a3fbb0e34e882ce4a4257a6bb8fde71d",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/%D8%A7%D9%84%D9%81%D9%88%D8%B6%D9%89/PT_UTF8_EsszxcxBYZCdpbxHBBB.wav"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/DR_Audio_Levels.aaf.expected",
+      "bytes": 14174,
+      "git_blob_sha": "5bfff5cdc670df3fa22a0fcbbaa3e63d4ba2d89c",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/DR_Audio_Levels.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/DR_Empty.aaf.expected",
+      "bytes": 1332,
+      "git_blob_sha": "d637de06a736292c23a1663080b29c09cd07a2b5",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/DR_Empty.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/DR_MP3_External.aaf.expected",
+      "bytes": 1689,
+      "git_blob_sha": "f3c64da180f6136346e41d7c0481c7b296d58e3d",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/DR_MP3_External.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/DR_Markers.aaf.expected",
+      "bytes": 1684,
+      "git_blob_sha": "bb9c1eb438c3433ba21efc4f9e86a4818a024e90",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/DR_Markers.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/DR_Mono_Clip_Positioning.aaf.expected",
+      "bytes": 3045,
+      "git_blob_sha": "7b58f04aac079b32240d181e061de5dcf07af0a0",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/DR_Mono_Clip_Positioning.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/DR_Multichannel_5.1_single_source.aaf.expected",
+      "bytes": 2873,
+      "git_blob_sha": "db846017eb5ac4f6015f9d45d8e39db83e39af55",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/DR_Multichannel_5.1_single_source.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/DR_Multichannel_7.1_single_source.aaf.expected",
+      "bytes": 3341,
+      "git_blob_sha": "2e664aa2a2f7e6a5e82b18e6b24dfb75fc5c2cb8",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/DR_Multichannel_7.1_single_source.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/DR_Multichannel_stereo_single_source.aaf.expected",
+      "bytes": 1996,
+      "git_blob_sha": "3c94af40dd708539908406ea98fc9db114b39f4a",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/DR_Multichannel_stereo_single_source.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/DR_Stereo_Clip_Positioning.aaf.expected",
+      "bytes": 4117,
+      "git_blob_sha": "485daf324b74c0003904923dff6593d79702746d",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/DR_Stereo_Clip_Positioning.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_Audio_Levels.aaf.expected",
+      "bytes": 4360,
+      "git_blob_sha": "f944a8d4df197cdbf25b12284fde85920128d235",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_Audio_Levels.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_Audio_Pan.aaf.expected",
+      "bytes": 2765,
+      "git_blob_sha": "2f9de8d8e0de56cfb5bf9a0c4936ce0f53e90f26",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_Audio_Pan.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_Audio_Warp.aaf.expected",
+      "bytes": 4110,
+      "git_blob_sha": "cbcb5680f14e589ff9ea3a81b22c387726ee64f4",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_Audio_Warp.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_Clip_Mute.aaf.expected",
+      "bytes": 2100,
+      "git_blob_sha": "efd7d775f74b98b2f7de3fc5a8c1f3444c22d1a8",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_Clip_Mute.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_Empty.aaf.expected",
+      "bytes": 1261,
+      "git_blob_sha": "f5319d55f0dc636bb75463560b2eb78bd5056eb7",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_Empty.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_Fades.aaf.expected",
+      "bytes": 5081,
+      "git_blob_sha": "35de53194e08d7eea8d9a80144d416ef12caf987",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_Fades.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_Markers.aaf.expected",
+      "bytes": 2989,
+      "git_blob_sha": "b08254e920309c6fbaafa021657c66e7c4365733",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_Markers.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_Metadata.aaf.expected",
+      "bytes": 3256,
+      "git_blob_sha": "64e4842756563274eb458914f50290a13e7c1daa",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_Metadata.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_100.aaf.expected",
+      "bytes": 2090,
+      "git_blob_sha": "aa453c4e11a6bb8b1af6ff782ce611de2804c120",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_100.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_119.88_DF.aaf.expected",
+      "bytes": 2116,
+      "git_blob_sha": "6eae11bcf971e66c44161c6734ae08e8e1908e2b",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_119.88_DF.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_119.88_NDF.aaf.expected",
+      "bytes": 2118,
+      "git_blob_sha": "17b4e67c6a2d6f20f8dea6c8741a7e5c3f5f0b68",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_119.88_NDF.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_120_DF.aaf.expected",
+      "bytes": 2092,
+      "git_blob_sha": "97047f2181719c58dbda710ccc6b586aaf9e2a07",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_120_DF.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_120_NDF.aaf.expected",
+      "bytes": 2094,
+      "git_blob_sha": "a07ce2937424b618253da25f8775f30820eacc69",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_120_NDF.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_23.976.aaf.expected",
+      "bytes": 2112,
+      "git_blob_sha": "59fe74802c3333d6f910883c65917a7198e65f2d",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_23.976.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_24.aaf.expected",
+      "bytes": 2078,
+      "git_blob_sha": "714590bf25495cf23ca83e4a47b93c8d1f67f6e2",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_24.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_25.aaf.expected",
+      "bytes": 2078,
+      "git_blob_sha": "15e13631eacc1bc05bd00f45fccb237bb52af421",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_25.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_29.97_DF.aaf.expected",
+      "bytes": 2115,
+      "git_blob_sha": "ff80c8e114b39e2928b1addd6e4c585d1a37a21a",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_29.97_DF.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_29.97_NDF.aaf.expected",
+      "bytes": 2117,
+      "git_blob_sha": "1d2d4650c1ae27d156820f50669ac4c75aa9e236",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_29.97_NDF.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_30_DF.aaf.expected",
+      "bytes": 2082,
+      "git_blob_sha": "650c0448984f151bd266d5e2980101476c698f84",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_30_DF.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_30_NDF.aaf.expected",
+      "bytes": 2084,
+      "git_blob_sha": "9efabd20097b733c33cd47901575214be2939c06",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_30_NDF.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_50.aaf.expected",
+      "bytes": 2080,
+      "git_blob_sha": "00ef969b812aaaff58558a16e9d39559327854ea",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_50.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_59.94_DF.aaf.expected",
+      "bytes": 2115,
+      "git_blob_sha": "db52d1f45a73d26696235511427cc20e0595b1b9",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_59.94_DF.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_59.94_NDF.aaf.expected",
+      "bytes": 2117,
+      "git_blob_sha": "9e76e35ce6e770006259ae41874c27f8f10049c1",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_59.94_NDF.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_60_DF.aaf.expected",
+      "bytes": 2082,
+      "git_blob_sha": "6f6b77930eacc55cc3b6200bd424b19d96785742",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_60_DF.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_TC_60_NDF.aaf.expected",
+      "bytes": 2084,
+      "git_blob_sha": "3de4beaf7200e79d2f075b6a2119b643c3640561",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_TC_60_NDF.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/MC_Track_Solo_Mute.aaf.expected",
+      "bytes": 2286,
+      "git_blob_sha": "1157fda5029a461aaedb9fc1e55f254cd4052cce",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/MC_Track_Solo_Mute.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PR_AIFF_Internal.aaf.expected",
+      "bytes": 1787,
+      "git_blob_sha": "fea42527ffece6335c8920863ebc28e7e062f94f",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PR_AIFF_Internal.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PR_Audio_Levels-noBTM.aaf.expected",
+      "bytes": 5040,
+      "git_blob_sha": "eaeedb9dbf84c51a91e2255638d52dbd934e99d8",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PR_Audio_Levels-noBTM.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PR_Audio_Pan-noBTM.aaf.expected",
+      "bytes": 3576,
+      "git_blob_sha": "19d6911fe2ff96b897ffb1fa6dfbf75cb90562e5",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PR_Audio_Pan-noBTM.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PR_Clip_length_beyond_EOF.aaf.expected",
+      "bytes": 1777,
+      "git_blob_sha": "ae9b25e08beca045478f9fb4e8729835eba04fa3",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PR_Clip_length_beyond_EOF.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PR_Fades.aaf.expected",
+      "bytes": 5997,
+      "git_blob_sha": "7a549801d59a6994b5f23d4e4a76f1bfddbfe058",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PR_Fades.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PR_WAV_External_sub_sub_directory_UTF8.aaf.expected",
+      "bytes": 1809,
+      "git_blob_sha": "7790bcf2592498116adfec3edac47839e574bb4b",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PR_WAV_External_sub_sub_directory_UTF8.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PR_WAV_Internal.aaf.expected",
+      "bytes": 1786,
+      "git_blob_sha": "ae7c97691428daac8403bd3aa6b458de6bde45d1",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PR_WAV_Internal.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_AIFF_External.aaf.expected",
+      "bytes": 1747,
+      "git_blob_sha": "6364df7759a8c963ffe6280ae018850cd294b127",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_AIFF_External.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_Audio_Levels-noEMCC-noExpTracksAsMultiChannel.aaf.expected",
+      "bytes": 14136,
+      "git_blob_sha": "050559a766330f644d4996852e2546d5c20fe2af",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_Audio_Levels-noEMCC-noExpTracksAsMultiChannel.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_Fades.aaf.expected",
+      "bytes": 12621,
+      "git_blob_sha": "be494ea192f557b6d08d5b7e85d13db4f127ead2",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_Fades.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_Fades_A.aaf.expected",
+      "bytes": 10343,
+      "git_blob_sha": "0689f7a703316fb579644d27b15b9b233a190c41",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_Fades_A.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_Fades_B.aaf.expected",
+      "bytes": 9560,
+      "git_blob_sha": "705cb31145062483e6f2cd57af3fdb36412a3f92",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_Fades_B.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_Fades_no_handles.aaf.expected",
+      "bytes": 12615,
+      "git_blob_sha": "456e34a07c2fb781708b9ec93767e6d133119193",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_Fades_no_handles.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_MXF_External.aaf.expected",
+      "bytes": 1761,
+      "git_blob_sha": "37c3a08fec1c8b546d652dd3e024d869107797c2",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_MXF_External.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_Multichannel_5.1_multi_source.aaf.expected",
+      "bytes": 5264,
+      "git_blob_sha": "f6f905c78cc76a25a0fa4c02419a364139f7ddf3",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_Multichannel_5.1_multi_source.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_Multichannel_7.1_multi_source.aaf.expected",
+      "bytes": 6595,
+      "git_blob_sha": "0b5adc8eef2eed7d36be7a2ebd495caa0eaa52e0",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_Multichannel_7.1_multi_source.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_Multichannel_stereo_multi_source.aaf.expected",
+      "bytes": 2661,
+      "git_blob_sha": "daf67555b0c24740500eaff92b0b5ca2e08f4a6d",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_Multichannel_stereo_multi_source.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_PCM_Internal.aaf.expected",
+      "bytes": 1671,
+      "git_blob_sha": "fc0b8212ff0df9d797f9e5212c22c4ff9712fc59",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_PCM_Internal.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_UTF8_EssencePath.aaf.expected",
+      "bytes": 1687,
+      "git_blob_sha": "e616649426a7c2e2bd883c7ac3d8b75778ffbe44",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_UTF8_EssencePath.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_WAV_External.aaf.expected",
+      "bytes": 1700,
+      "git_blob_sha": "fc12e7de103f5e385e729d8a612458967de360d8",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_WAV_External.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_WAV_External_same_directory.aaf.expected",
+      "bytes": 1700,
+      "git_blob_sha": "dc8762acb3822d7c99b88330867e988e46d6cbe0",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_WAV_External_same_directory.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_WAV_External_sub_directory.aaf.expected",
+      "bytes": 1729,
+      "git_blob_sha": "11acd725e63f528924bc9af38aa03130fc158545",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_WAV_External_sub_directory.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_lang_de.aaf.expected",
+      "bytes": 3210,
+      "git_blob_sha": "5789499a312c305e1cd0b31964212c7679d5c71c",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_lang_de.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_lang_en.aaf.expected",
+      "bytes": 3178,
+      "git_blob_sha": "82bc39ab9d891fc85869b15740ddfbab34a86fe9",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_lang_en.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_lang_es.aaf.expected",
+      "bytes": 3302,
+      "git_blob_sha": "9430bbb73fc75c7b0a5455aacb7dca24fe603445",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_lang_es.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_lang_fr.aaf.expected",
+      "bytes": 3310,
+      "git_blob_sha": "c2f512376a1b176d3a8442f5b1408c66f74f9fc3",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_lang_fr.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_lang_ja.aaf.expected",
+      "bytes": 3210,
+      "git_blob_sha": "3ca45adda09cc56ce4a452b6fd5bd54364035e3e",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_lang_ja.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_lang_ko.aaf.expected",
+      "bytes": 3250,
+      "git_blob_sha": "88b4fc0b5e82b3ca79405167fdbb3b135d99c031",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_lang_ko.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_lang_zh_CN.aaf.expected",
+      "bytes": 3180,
+      "git_blob_sha": "f9d3e639e4cd54817265265cf49cc2a487058407",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_lang_zh_CN.aaf.expected"
+      }
+    },
+    {
+      "path": "reference/agfline__LibAAF/test/expected/PT_lang_zh_TW.aaf.expected",
+      "bytes": 3180,
+      "git_blob_sha": "338ab6ba857f011d64686f58fef10f5bfec61a5a",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/expected/PT_lang_zh_TW.aaf.expected"
+      }
+    },
+    {
+      "path": "media/agfline__LibAAF/test/res/1000hz-18dbs16b44.1k.aiff",
+      "bytes": 267358,
+      "git_blob_sha": "a95768c97c22d31f4ab9c465486702e92f45a68a",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/res/1000hz-18dbs16b44.1k.aiff"
+      }
+    },
+    {
+      "path": "media/agfline__LibAAF/test/res/1000hz-18dbs16b44.1k.wav",
+      "bytes": 267958,
+      "git_blob_sha": "164f8b7ba2d96907aa7a1069ae09a2228e8d9e9d",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/res/1000hz-18dbs16b44.1k.wav"
+      }
+    },
+    {
+      "path": "media/agfline__LibAAF/test/res/1000hz.mp3",
+      "bytes": 13212,
+      "git_blob_sha": "f23a0758749be75fe4b3f608971781a01b6ae574",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/agfline/LibAAF/7925dff4026be06b4edfacdfe458887c2d6503ca/test/res/1000hz.mp3"
+      }
+    },
+    {
+      "path": "inputs/89c0577f42a082b4e672488ca7b99de0b4710659.aaf",
+      "bytes": 195584,
+      "git_blob_sha": "89c0577f42a082b4e672488ca7b99de0b4710659",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/examples/com-api/ExportAudioExample/ExportAudioExample_NoCodecDef.aaf"
+      }
+    },
+    {
+      "path": "inputs/78c0fa1579a58f98ed3f2ad921facdb22da705c5.aaf",
+      "bytes": 365056,
+      "git_blob_sha": "78c0fa1579a58f98ed3f2ad921facdb22da705c5",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/examples/com-api/ExportDV/ExportDV_NoCodecDef.aaf"
+      }
+    },
+    {
+      "path": "inputs/0bd8b4fc42cfaea4a6b29cddadc4049f3b5d6e60.aaf",
+      "bytes": 302592,
+      "git_blob_sha": "0bd8b4fc42cfaea4a6b29cddadc4049f3b5d6e60",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/examples/com-api/ExportJPEG/ExportJPEG_NoCodecDef.aaf"
+      }
+    },
+    {
+      "path": "inputs/6e52feb82d45656f3e376eba0a83fd96710e03a6.aaf",
+      "bytes": 207360,
+      "git_blob_sha": "6e52feb82d45656f3e376eba0a83fd96710e03a6",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/examples/com-api/ExportPCM/ExportPCM_NoCodecDef.aaf"
+      }
+    },
+    {
+      "path": "inputs/b668685ad4ace46879b70bdca2baa7bbc0bb7fe4.aaf",
+      "bytes": 1245696,
+      "git_blob_sha": "b668685ad4ace46879b70bdca2baa7bbc0bb7fe4",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/test/com/MemoryLeakTest/RealWorldSample1.aaf"
+      }
+    },
+    {
+      "path": "inputs/87f441f47f9df0b0e71fe4f12ebf7702eaf3aee8.aaf",
+      "bytes": 133120,
+      "git_blob_sha": "87f441f47f9df0b0e71fe4f12ebf7702eaf3aee8",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/test/com/OpenExistingModify/AAFHeaderTest_v102.aaf"
+      }
+    },
+    {
+      "path": "reference/dneg__aaf/AAFWinSDK/AAFAnalyzer/AAFReport/Program/LICENSE.txt",
+      "bytes": 872,
+      "git_blob_sha": "d98eff39165d37832f868183b75eb6afce313b41",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/AAFWinSDK/AAFAnalyzer/AAFReport/Program/LICENSE.txt"
+      }
+    },
+    {
+      "path": "media/dneg__aaf/AAFWinSDK/vs10/Test/com/ComModTestAAF/Laser.wav",
+      "bytes": 1837,
+      "git_blob_sha": "e7183eee9421808c7d78c4b96cb697cea233a5e5",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/AAFWinSDK/vs10/Test/com/ComModTestAAF/Laser.wav"
+      }
+    },
+    {
+      "path": "media/dneg__aaf/AAFWinSDK/vs10/examples/com-api/ComEssenceDataTest/Laser.wav",
+      "bytes": 1837,
+      "git_blob_sha": "e7183eee9421808c7d78c4b96cb697cea233a5e5",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/AAFWinSDK/vs10/examples/com-api/ComEssenceDataTest/Laser.wav"
+      }
+    },
+    {
+      "path": "reference/dneg__aaf/AAFWinSDK/vs7/AAFAnalyzer/AAFReport/Program/LICENSE.txt",
+      "bytes": 872,
+      "git_blob_sha": "d98eff39165d37832f868183b75eb6afce313b41",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/AAFWinSDK/vs7/AAFAnalyzer/AAFReport/Program/LICENSE.txt"
+      }
+    },
+    {
+      "path": "media/dneg__aaf/AAFWinSDK/vs7/Test/com/ComModTestAAF/Laser.wav",
+      "bytes": 1837,
+      "git_blob_sha": "e7183eee9421808c7d78c4b96cb697cea233a5e5",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/AAFWinSDK/vs7/Test/com/ComModTestAAF/Laser.wav"
+      }
+    },
+    {
+      "path": "media/dneg__aaf/AAFWinSDK/vs7/examples/com-api/ComEssenceDataTest/Laser.wav",
+      "bytes": 1837,
+      "git_blob_sha": "e7183eee9421808c7d78c4b96cb697cea233a5e5",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/AAFWinSDK/vs7/examples/com-api/ComEssenceDataTest/Laser.wav"
+      }
+    },
+    {
+      "path": "reference/dneg__aaf/AAFWinSDK/vs8/AAFAnalyzer/AAFReport/Program/LICENSE.txt",
+      "bytes": 872,
+      "git_blob_sha": "d98eff39165d37832f868183b75eb6afce313b41",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/AAFWinSDK/vs8/AAFAnalyzer/AAFReport/Program/LICENSE.txt"
+      }
+    },
+    {
+      "path": "media/dneg__aaf/AAFWinSDK/vs8/Test/com/ComModTestAAF/Laser.wav",
+      "bytes": 1837,
+      "git_blob_sha": "e7183eee9421808c7d78c4b96cb697cea233a5e5",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/AAFWinSDK/vs8/Test/com/ComModTestAAF/Laser.wav"
+      }
+    },
+    {
+      "path": "media/dneg__aaf/AAFWinSDK/vs8/examples/com-api/ComEssenceDataTest/Laser.wav",
+      "bytes": 1837,
+      "git_blob_sha": "e7183eee9421808c7d78c4b96cb697cea233a5e5",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/AAFWinSDK/vs8/examples/com-api/ComEssenceDataTest/Laser.wav"
+      }
+    },
+    {
+      "path": "reference/dneg__aaf/AAFWinSDK/vs9/AAFAnalyzer/AAFReport/Program/LICENSE.txt",
+      "bytes": 872,
+      "git_blob_sha": "d98eff39165d37832f868183b75eb6afce313b41",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/AAFWinSDK/vs9/AAFAnalyzer/AAFReport/Program/LICENSE.txt"
+      }
+    },
+    {
+      "path": "media/dneg__aaf/AAFWinSDK/vs9/Test/com/ComModTestAAF/Laser.wav",
+      "bytes": 1837,
+      "git_blob_sha": "e7183eee9421808c7d78c4b96cb697cea233a5e5",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/AAFWinSDK/vs9/Test/com/ComModTestAAF/Laser.wav"
+      }
+    },
+    {
+      "path": "media/dneg__aaf/AAFWinSDK/vs9/examples/com-api/ComEssenceDataTest/Laser.wav",
+      "bytes": 1837,
+      "git_blob_sha": "e7183eee9421808c7d78c4b96cb697cea233a5e5",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/AAFWinSDK/vs9/examples/com-api/ComEssenceDataTest/Laser.wav"
+      }
+    },
+    {
+      "path": "reference/dneg__aaf/LEGAL/AAFSDKPSL.TXT",
+      "bytes": 22448,
+      "git_blob_sha": "a5df79acc1628024dc330d14263d7f6706d3c255",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/LEGAL/AAFSDKPSL.TXT"
+      }
+    },
+    {
+      "path": "media/dneg__aaf/examples/com-api/ExportVC3/bgrai.1080p.1235.dnx",
+      "bytes": 917504,
+      "git_blob_sha": "0bd20b010f28ca233c2435af693ae5d6dbf7c151",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/examples/com-api/ExportVC3/bgrai.1080p.1235.dnx"
+      }
+    },
+    {
+      "path": "media/dneg__aaf/test/com/ComModTestAAF/Laser.wav",
+      "bytes": 1837,
+      "git_blob_sha": "e7183eee9421808c7d78c4b96cb697cea233a5e5",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/dneg/aaf/dfc1931bde150b368b50a1f7121f3d9f4305d2da/test/com/ComModTestAAF/Laser.wav"
+      }
+    },
+    {
+      "path": "inputs/42a98a0f8ce0f522015cd8e7ca486982397f2a91.aaf",
+      "bytes": 284672,
+      "git_blob_sha": "42a98a0f8ce0f522015cd8e7ca486982397f2a91",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/iluvcapra/rust-aaf/bed9ac422081ec495a4f8e1571f1ad442c244352/testmedia/AAF_Test_1/AAF_Test_1.aaf"
+      }
+    },
+    {
+      "path": "inputs/e7ae68b6c4d82298f886870caf6ac999f03f0913.aaf",
+      "bytes": 297984,
+      "git_blob_sha": "e7ae68b6c4d82298f886870caf6ac999f03f0913",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/iluvcapra/rust-aaf/bed9ac422081ec495a4f8e1571f1ad442c244352/testmedia/AAF_Test_1/AAF_Test_1_Embedded.aaf"
+      }
+    },
+    {
+      "path": "media/iluvcapra__rust-aaf/testmedia/AAF_Test_1/AAF_Test_1 Audio Files/AAF_Test_1vqzsXQBCsfggBVXX.wav",
+      "bytes": 30842,
+      "git_blob_sha": "92df7bc12d1ebacbae797df2e66f4bb90913edad",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/iluvcapra/rust-aaf/bed9ac422081ec495a4f8e1571f1ad442c244352/testmedia/AAF_Test_1/AAF_Test_1%20Audio%20Files/AAF_Test_1vqzsXQBCsfggBVXX.wav"
+      }
+    },
+    {
+      "path": "inputs/2badf5babb5942f4e9133051b9c37b50f83e241b.aaf",
+      "bytes": 2740224,
+      "git_blob_sha": "2badf5babb5942f4e9133051b9c37b50f83e241b",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf/223daf3e60d098ec3d87d9138b8cabe2cf7b454b/tests/files/retime.aaf"
+      }
+    },
+    {
+      "path": "inputs/7de166f748586aa0149f04ef9a15f2b670db99ac.aaf",
+      "bytes": 2318336,
+      "git_blob_sha": "7de166f748586aa0149f04ef9a15f2b670db99ac",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf/223daf3e60d098ec3d87d9138b8cabe2cf7b454b/tests/files/test_file_01.aaf"
+      }
+    },
+    {
+      "path": "reference/markreidvfx__pyaaf/LICENSE",
+      "bytes": 1076,
+      "git_blob_sha": "33746bad4ef5b750d4c12a8d7f20ec02df241455",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf/223daf3e60d098ec3d87d9138b8cabe2cf7b454b/LICENSE"
+      }
+    },
+    {
+      "path": "media/markreidvfx__pyaaf/example/test_title.mxf",
+      "bytes": 787041,
+      "git_blob_sha": "adaec16785521267939caebade6478e7e30655e3",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf/223daf3e60d098ec3d87d9138b8cabe2cf7b454b/example/test_title.mxf"
+      }
+    },
+    {
+      "path": "inputs/c8ac47dea444f0b94f2ae6730743ab113a7e3a1d.aaf",
+      "bytes": 184320,
+      "git_blob_sha": "c8ac47dea444f0b94f2ae6730743ab113a7e3a1d",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf2/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/empty.aaf"
+      }
+    },
+    {
+      "path": "inputs/323b527046ad8ae43b65c6c9d42897e92a62d21e.aaf",
+      "bytes": 520192,
+      "git_blob_sha": "323b527046ad8ae43b65c6c9d42897e92a62d21e",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf2/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/bezier01.aaf"
+      }
+    },
+    {
+      "path": "inputs/fb5234c174cebe3356ba846032ab75bda500191d.aaf",
+      "bytes": 520192,
+      "git_blob_sha": "fb5234c174cebe3356ba846032ab75bda500191d",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf2/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/bezier02.aaf"
+      }
+    },
+    {
+      "path": "inputs/5c0748870550762db3b748fb80f0ebd53c195189.aaf",
+      "bytes": 520192,
+      "git_blob_sha": "5c0748870550762db3b748fb80f0ebd53c195189",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf2/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/bezier03.aaf"
+      }
+    },
+    {
+      "path": "inputs/c2c2aff8a893b738b4412857ac7527797e71104d.aaf",
+      "bytes": 495616,
+      "git_blob_sha": "c2c2aff8a893b738b4412857ac7527797e71104d",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf2/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/linear01.aaf"
+      }
+    },
+    {
+      "path": "inputs/210e25619d948222126ba851571ebede4ec7c460.aaf",
+      "bytes": 483328,
+      "git_blob_sha": "210e25619d948222126ba851571ebede4ec7c460",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf2/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/linear02.aaf"
+      }
+    },
+    {
+      "path": "inputs/cb0e9a612a6c03ba10498809b68ae5fc0f880ab4.aaf",
+      "bytes": 483328,
+      "git_blob_sha": "cb0e9a612a6c03ba10498809b68ae5fc0f880ab4",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf2/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/linear03.aaf"
+      }
+    },
+    {
+      "path": "inputs/5b228166b0fd200a2d3ea765e942fb8f5fd17404.aaf",
+      "bytes": 520192,
+      "git_blob_sha": "5b228166b0fd200a2d3ea765e942fb8f5fd17404",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf2/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/spline01.aaf"
+      }
+    },
+    {
+      "path": "inputs/45791a1bdf4ed15064ee17e10ccbd89c555e6a8a.aaf",
+      "bytes": 483328,
+      "git_blob_sha": "45791a1bdf4ed15064ee17e10ccbd89c555e6a8a",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf2/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/spline02.aaf"
+      }
+    },
+    {
+      "path": "inputs/d8857c7c98b0bdd58f79b66e9acbadefe3ad364a.aaf",
+      "bytes": 483328,
+      "git_blob_sha": "d8857c7c98b0bdd58f79b66e9acbadefe3ad364a",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf2/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/spline03.aaf"
+      }
+    },
+    {
+      "path": "inputs/f52bc5c4eaa09ae43a3587cf2be09d0effd9a835.aaf",
+      "bytes": 495616,
+      "git_blob_sha": "f52bc5c4eaa09ae43a3587cf2be09d0effd9a835",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf2/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/step01.aaf"
+      }
+    },
+    {
+      "path": "inputs/77775811359f86cfea658fdfd02dba34e5b3fd99.aaf",
+      "bytes": 483328,
+      "git_blob_sha": "77775811359f86cfea658fdfd02dba34e5b3fd99",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf2/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/step02.aaf"
+      }
+    },
+    {
+      "path": "inputs/a3cb72590262069227ad46ff744958c65f442975.aaf",
+      "bytes": 483328,
+      "git_blob_sha": "a3cb72590262069227ad46ff744958c65f442975",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf2/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/step03.aaf"
+      }
+    },
+    {
+      "path": "inputs/c8948a8b26eda08b1f06be4ed55a3dfe9e4e8d1e.aaf",
+      "bytes": 327168,
+      "git_blob_sha": "c8948a8b26eda08b1f06be4ed55a3dfe9e4e8d1e",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf2/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/sector_size_512.aaf"
+      }
+    },
+    {
+      "path": "reference/markreidvfx__pyaaf2/LICENSE",
+      "bytes": 1076,
+      "git_blob_sha": "24789103971141b8efa93da6fa6d9c23b5144f48",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/markreidvfx/pyaaf2/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/LICENSE"
+      }
+    },
+    {
+      "path": "inputs/f0c206cf3315a1ed90c119e26b6f1306bff4c601.aaf",
+      "bytes": 285696,
+      "git_blob_sha": "f0c206cf3315a1ed90c119e26b6f1306bff4c601",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/2997fps-DFTC.aaf"
+      }
+    },
+    {
+      "path": "inputs/9add76b0c22fe3b0e4f456fbb5f20200aceac43e.aaf",
+      "bytes": 393216,
+      "git_blob_sha": "9add76b0c22fe3b0e4f456fbb5f20200aceac43e",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/2997fps.aaf"
+      }
+    },
+    {
+      "path": "inputs/10d06dfbcf09c3074ac1131e71501e223a5c2920.aaf",
+      "bytes": 401408,
+      "git_blob_sha": "10d06dfbcf09c3074ac1131e71501e223a5c2920",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/30fps.aaf"
+      }
+    },
+    {
+      "path": "inputs/37a55ef878193eb6919e93f05aef7e2b02460df3.aaf",
+      "bytes": 499712,
+      "git_blob_sha": "37a55ef878193eb6919e93f05aef7e2b02460df3",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/avid_data_track_example.aaf"
+      }
+    },
+    {
+      "path": "inputs/9f081ad3f28269a1a3f717427c23cfc8ba9ea721.aaf",
+      "bytes": 436736,
+      "git_blob_sha": "9f081ad3f28269a1a3f717427c23cfc8ba9ea721",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/bad_marker_track_from_avid.aaf"
+      }
+    },
+    {
+      "path": "inputs/6d18e891165d009091ab0dfb8fd5edababdc826f.aaf",
+      "bytes": 495616,
+      "git_blob_sha": "6d18e891165d009091ab0dfb8fd5edababdc826f",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/colored_clips.aaf"
+      }
+    },
+    {
+      "path": "inputs/c24f00b3a669f0044747ac70c9d5d1ad068d8b0f.aaf",
+      "bytes": 442368,
+      "git_blob_sha": "c24f00b3a669f0044747ac70c9d5d1ad068d8b0f",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/composite.aaf"
+      }
+    },
+    {
+      "path": "inputs/2f756154058a1b3a977570ba2818509c1a011d27.aaf",
+      "bytes": 421888,
+      "git_blob_sha": "2f756154058a1b3a977570ba2818509c1a011d27",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/duplicates.aaf"
+      }
+    },
+    {
+      "path": "inputs/7802e2201146a76872b867de9966a8e001d09fcc.aaf",
+      "bytes": 454656,
+      "git_blob_sha": "7802e2201146a76872b867de9966a8e001d09fcc",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/essence_group.aaf"
+      }
+    },
+    {
+      "path": "inputs/ca7551bbb95bc9e01e93963a9b32f1bc22017595.aaf",
+      "bytes": 1302528,
+      "git_blob_sha": "ca7551bbb95bc9e01e93963a9b32f1bc22017595",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/keyframed_properties.aaf"
+      }
+    },
+    {
+      "path": "inputs/2e9b4affd3a1fd4d92bcdd61ff4fb5f8017a30a8.aaf",
+      "bytes": 999424,
+      "git_blob_sha": "2e9b4affd3a1fd4d92bcdd61ff4fb5f8017a30a8",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/linear_speed_effects.aaf"
+      }
+    },
+    {
+      "path": "inputs/d0d335344cf77ecdcc9333843c4e819159b7152a.aaf",
+      "bytes": 1826816,
+      "git_blob_sha": "d0d335344cf77ecdcc9333843c4e819159b7152a",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/marker-over-audio.aaf"
+      }
+    },
+    {
+      "path": "inputs/bf9174d4ec2e51c592b7cec8c0898ed5f183aeb5.aaf",
+      "bytes": 524288,
+      "git_blob_sha": "bf9174d4ec2e51c592b7cec8c0898ed5f183aeb5",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/marker-over-transition.aaf"
+      }
+    },
+    {
+      "path": "inputs/a39847d3a65753fb037b38f47098f6a45b9a47ff.aaf",
+      "bytes": 659456,
+      "git_blob_sha": "a39847d3a65753fb037b38f47098f6a45b9a47ff",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/misc_speed_effects.aaf"
+      }
+    },
+    {
+      "path": "inputs/64a93087de0e5ccbda0685af73aaf2d481445c15.aaf",
+      "bytes": 942080,
+      "git_blob_sha": "64a93087de0e5ccbda0685af73aaf2d481445c15",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/multiple-markers-over-transitions.aaf"
+      }
+    },
+    {
+      "path": "inputs/3855ed7f5e30709f12788d273f056ab93a2d06b3.aaf",
+      "bytes": 921600,
+      "git_blob_sha": "3855ed7f5e30709f12788d273f056ab93a2d06b3",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/multiple_markers.aaf"
+      }
+    },
+    {
+      "path": "inputs/f614c016b125ab0a378bd32cdd2bceb94e1a137d.aaf",
+      "bytes": 380928,
+      "git_blob_sha": "f614c016b125ab0a378bd32cdd2bceb94e1a137d",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/multiple_timecode_objects.aaf"
+      }
+    },
+    {
+      "path": "inputs/a2cf2b94fe00406e70e5d4a01cac32cd05bb7fb5.aaf",
+      "bytes": 565248,
+      "git_blob_sha": "a2cf2b94fe00406e70e5d4a01cac32cd05bb7fb5",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/multiple_top_level_mobs.aaf"
+      }
+    },
+    {
+      "path": "inputs/4903865d61e8fe8386438839412afa8470434899.aaf",
+      "bytes": 663552,
+      "git_blob_sha": "4903865d61e8fe8386438839412afa8470434899",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/multitrack.aaf"
+      }
+    },
+    {
+      "path": "inputs/68b8d1385533fcc3366ca45ac7746c379437cc25.aaf",
+      "bytes": 454656,
+      "git_blob_sha": "68b8d1385533fcc3366ca45ac7746c379437cc25",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/nested_audio_dissolve.aaf"
+      }
+    },
+    {
+      "path": "inputs/76f317d487689e8c7fd75faf26ffb7c72b42f031.aaf",
+      "bytes": 487424,
+      "git_blob_sha": "76f317d487689e8c7fd75faf26ffb7c72b42f031",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/nested_stack.aaf"
+      }
+    },
+    {
+      "path": "inputs/2dfe2d009924fb50037b73eb7187ffe76caf3bc1.aaf",
+      "bytes": 446464,
+      "git_blob_sha": "2dfe2d009924fb50037b73eb7187ffe76caf3bc1",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/nesting_test.aaf"
+      }
+    },
+    {
+      "path": "inputs/1ff9b570498b2eb1604d9a1cc937a34552453333.aaf",
+      "bytes": 425984,
+      "git_blob_sha": "1ff9b570498b2eb1604d9a1cc937a34552453333",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/nesting_test_preflattened.aaf"
+      }
+    },
+    {
+      "path": "inputs/18271a7dc96e61f21924bf743c76254a9b02edb8.aaf",
+      "bytes": 495616,
+      "git_blob_sha": "18271a7dc96e61f21924bf743c76254a9b02edb8",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/normalclip_sourceclip_references_compositionmob_has_also_mastermob_usercomments.aaf"
+      }
+    },
+    {
+      "path": "inputs/0f03ce8893bf77fdf18fe2d6b913b23d66e9020e.aaf",
+      "bytes": 491520,
+      "git_blob_sha": "0f03ce8893bf77fdf18fe2d6b913b23d66e9020e",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/normalclip_sourceclip_references_compositionmob_with_usercomments_no_mastermob_usercomments.aaf"
+      }
+    },
+    {
+      "path": "inputs/35de3389220a936726240fbaf29260f7e22ec848.aaf",
+      "bytes": 430080,
+      "git_blob_sha": "35de3389220a936726240fbaf29260f7e22ec848",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/one_audio_clip.aaf"
+      }
+    },
+    {
+      "path": "inputs/edcbf4d65813eb32c88f8d3645837cc7f9206260.aaf",
+      "bytes": 438272,
+      "git_blob_sha": "edcbf4d65813eb32c88f8d3645837cc7f9206260",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/one_clip.aaf"
+      }
+    },
+    {
+      "path": "inputs/bcec38d8bd833de5324de37b582fae2cccc41a64.aaf",
+      "bytes": 5173248,
+      "git_blob_sha": "bcec38d8bd833de5324de37b582fae2cccc41a64",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/picchu_seq0100_snippet_embedded.aaf"
+      }
+    },
+    {
+      "path": "inputs/618cf8aa0a928775578cb173e5d313a70110e999.aaf",
+      "bytes": 634880,
+      "git_blob_sha": "618cf8aa0a928775578cb173e5d313a70110e999",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/preflattened.aaf"
+      }
+    },
+    {
+      "path": "inputs/81a09225c9b869d43a51a33071c9aba36d0a5ade.aaf",
+      "bytes": 593920,
+      "git_blob_sha": "81a09225c9b869d43a51a33071c9aba36d0a5ade",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/simple.aaf"
+      }
+    },
+    {
+      "path": "inputs/03178e8126ca0869931d93b0e651c6d4d2cc7cb4.aaf",
+      "bytes": 458752,
+      "git_blob_sha": "03178e8126ca0869931d93b0e651c6d4d2cc7cb4",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/subclip_sourceclip_references_compositionmob_with_mastermob.aaf"
+      }
+    },
+    {
+      "path": "inputs/fa8efebf1fdbc79c82f4bd935da57b1981d88cd9.aaf",
+      "bytes": 397312,
+      "git_blob_sha": "fa8efebf1fdbc79c82f4bd935da57b1981d88cd9",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/test_muted_clip.aaf"
+      }
+    },
+    {
+      "path": "inputs/b7e5703494f28b9f987e5fa06e8c6bf2a71e2759.aaf",
+      "bytes": 1953792,
+      "git_blob_sha": "b7e5703494f28b9f987e5fa06e8c6bf2a71e2759",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/time_warp_test.avid_media_composer.aaf"
+      }
+    },
+    {
+      "path": "inputs/3defe9a12426e885caed1dcc3641e123d6529cf8.aaf",
+      "bytes": 425984,
+      "git_blob_sha": "3defe9a12426e885caed1dcc3641e123d6529cf8",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/timecode_test.aaf"
+      }
+    },
+    {
+      "path": "inputs/0b56704f063b9a9aaeccf72667e35f3b96543d91.aaf",
+      "bytes": 679936,
+      "git_blob_sha": "0b56704f063b9a9aaeccf72667e35f3b96543d91",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/transitions.aaf"
+      }
+    },
+    {
+      "path": "inputs/e4953dafdfe8c5f58466de8242678fd89f0c3bee.aaf",
+      "bytes": 593920,
+      "git_blob_sha": "e4953dafdfe8c5f58466de8242678fd89f0c3bee",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/trims.aaf"
+      }
+    },
+    {
+      "path": "inputs/ab36e7f61ab156a990da683e7025c58887935c3e.aaf",
+      "bytes": 438272,
+      "git_blob_sha": "ab36e7f61ab156a990da683e7025c58887935c3e",
+      "role": "aaf",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/utf8.aaf"
+      }
+    },
+    {
+      "path": "reference/OpenTimelineIO__otio-aaf-adapter/LICENSE.txt",
+      "bytes": 11358,
+      "git_blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "reference",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/LICENSE.txt"
+      }
+    },
+    {
+      "path": "media/OpenTimelineIO__otio-aaf-adapter/tests/sample_data/linear_speed_effects_aaf.mov",
+      "bytes": 504209,
+      "git_blob_sha": "ad1c5c7a11efb4a53217ec698cd77dc7a71beb61",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/linear_speed_effects_aaf.mov"
+      }
+    },
+    {
+      "path": "media/OpenTimelineIO__otio-aaf-adapter/tests/sample_data/misc_speed_effects_aaf.mov",
+      "bytes": 185346,
+      "git_blob_sha": "27a16e060ce74705d33b6cb9c288e2e808e1c0e4",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/misc_speed_effects_aaf.mov"
+      }
+    },
+    {
+      "path": "media/OpenTimelineIO__otio-aaf-adapter/tests/sample_data/picchu_seq0100_snippet_dnx.dnx",
+      "bytes": 4710400,
+      "git_blob_sha": "3967fb78f22153166ea47e30366e156db4ff67af",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/picchu_seq0100_snippet_dnx.dnx"
+      }
+    },
+    {
+      "path": "media/OpenTimelineIO__otio-aaf-adapter/tests/sample_data/picchu_seq0100_snippet_dnx.mov",
+      "bytes": 4712720,
+      "git_blob_sha": "5bc7ae8ca9b653630f079593aafa8f55e456774d",
+      "role": "media",
+      "source": {
+        "url": "https://raw.githubusercontent.com/OpenTimelineIO/otio-aaf-adapter/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/picchu_seq0100_snippet_dnx.mov"
+      }
+    },
+    {
+      "path": "inputs/14f03b94df1bd639ed420dcd89c4e642bbd32295.aaf",
+      "bytes": 416256,
+      "git_blob_sha": "14f03b94df1bd639ed420dcd89c4e642bbd32295",
+      "role": "aaf",
+      "source": {
+        "url": "https://github.com/markreidvfx/pyaaf2/files/14562887/3dwarpbezier.aaf.zip",
+        "archive_bytes": 50120,
+        "archive_sha256": "ab547f53a541aac9cf1befaf838d9e5348a04c08a06ab3d8e8fbd9e0c4abf949",
+        "member": "3dwarpbezier.aaf"
+      }
+    },
+    {
+      "path": "inputs/3e65a7da0a57f4b94d3976ff38150029bc7687f3.aaf",
+      "bytes": 438272,
+      "git_blob_sha": "3e65a7da0a57f4b94d3976ff38150029bc7687f3",
+      "role": "aaf",
+      "source": {
+        "url": "https://github.com/markreidvfx/pyaaf2/files/7304244/TestMarkers.aaf.zip",
+        "archive_bytes": 48434,
+        "archive_sha256": "d5a9128c1b25c1196e3799d77f16640858380fc8ae81ea242b5e793e8ebad156",
+        "member": "TestMarkers.aaf"
+      }
+    },
+    {
+      "path": "inputs/a27d5e9b6cbc1f6c7253d83044c79301d3b971b9.aaf",
+      "bytes": 330240,
+      "git_blob_sha": "a27d5e9b6cbc1f6c7253d83044c79301d3b971b9",
+      "role": "aaf",
+      "source": {
+        "url": "https://github.com/markreidvfx/pyaaf2/files/4660181/AafTest.aaf.zip",
+        "archive_bytes": 59704,
+        "archive_sha256": "43f475df09c1a5b3a22f5314dd02461830b7200702472e1e4b8237df65ff72f6",
+        "member": "AafTest.aaf"
+      }
+    },
+    {
+      "path": "inputs/799ba99f77133df8745f0b3723fcc8b4fe4a6e4c.aaf",
+      "bytes": 462848,
+      "git_blob_sha": "799ba99f77133df8745f0b3723fcc8b4fe4a6e4c",
+      "role": "aaf",
+      "source": {
+        "url": "https://github.com/user-attachments/files/22491259/punchline.zip",
+        "archive_bytes": 2418287,
+        "archive_sha256": "3c6bea0faca3660dc1fc678545d79049a0a1e4aa272131014ad37dd89e9eb9b7",
+        "member": "punchline.aaf"
+      }
+    },
+    {
+      "path": "media/otio-65/punchline.otiod/media/V01.E4ED9889_205BB205BB528V.mxf",
+      "bytes": 3170401,
+      "git_blob_sha": "cee695f37a65ef9073206953d9f7a01bff40ac02",
+      "role": "media",
+      "source": {
+        "url": "https://github.com/user-attachments/files/22491259/punchline.zip",
+        "archive_bytes": 2418287,
+        "archive_sha256": "3c6bea0faca3660dc1fc678545d79049a0a1e4aa272131014ad37dd89e9eb9b7",
+        "member": "punchline.otiod/media/V01.E4ED9889_205BB205BB528V.mxf"
+      }
+    },
+    {
+      "path": "inputs/80207c949f9fc3f753b4b5357ea0e784eb75d33c.aaf",
+      "bytes": 655872,
+      "git_blob_sha": "80207c949f9fc3f753b4b5357ea0e784eb75d33c",
+      "role": "aaf",
+      "source": {
+        "url": "https://github.com/PixarAnimationStudios/OpenTimelineIO/files/3225340/TitlesTest_EmptyMetadataKey_190528.aaf.zip",
+        "archive_bytes": 81947,
+        "archive_sha256": "ca8d95d689bb84c3ef44d244900da3393b07651e09be888a0310647d5054ab1f",
+        "member": "TitlesTest_EmpterMetadataKey_190528.aaf"
+      }
+    },
+    {
+      "path": "inputs/6ba546eccf85e33737e5a11d688a84e9e5ae07c1.aaf",
+      "bytes": 462848,
+      "git_blob_sha": "6ba546eccf85e33737e5a11d688a84e9e5ae07c1",
+      "role": "aaf",
+      "source": {
+        "url": "https://github.com/user-attachments/files/17867096/simple_timecode_test_bug_repro.zip",
+        "archive_bytes": 373431,
+        "archive_sha256": "e3a95b7ff9c99edab5b0b3b94414681886f7e1c90ae0ddf30805ed681e9eb9a2",
+        "member": "simple_timecode_test.aaf"
+      }
+    },
+    {
+      "path": "media/otio-53/test_pattern_media_1920x1080_24_DNxHD-LB-no-tc.mov",
+      "bytes": 109099,
+      "git_blob_sha": "3f28801d4b6608f9cb055a81076180502b0477f2",
+      "role": "media",
+      "source": {
+        "url": "https://github.com/user-attachments/files/17867096/simple_timecode_test_bug_repro.zip",
+        "archive_bytes": 373431,
+        "archive_sha256": "e3a95b7ff9c99edab5b0b3b94414681886f7e1c90ae0ddf30805ed681e9eb9a2",
+        "member": "test_pattern_media_1920x1080_24_DNxHD-LB-no-tc.mov"
+      }
+    },
+    {
+      "path": "media/otio-53/test_pattern_media_1920x1080_24_DNxHD-LB-tc-1-hour.mov",
+      "bytes": 109649,
+      "git_blob_sha": "3352112375aa2920d950ceab0ab62fdf38ee7e15",
+      "role": "media",
+      "source": {
+        "url": "https://github.com/user-attachments/files/17867096/simple_timecode_test_bug_repro.zip",
+        "archive_bytes": 373431,
+        "archive_sha256": "e3a95b7ff9c99edab5b0b3b94414681886f7e1c90ae0ddf30805ed681e9eb9a2",
+        "member": "test_pattern_media_1920x1080_24_DNxHD-LB-tc-1-hour.mov"
+      }
+    },
+    {
+      "path": "media/otio-53/test_pattern_media_1920x1080_24_DNxHD-LB-tc-zero.mov",
+      "bytes": 109717,
+      "git_blob_sha": "8007ddb8aec25eb887024e310481e4185a827581",
+      "role": "media",
+      "source": {
+        "url": "https://github.com/user-attachments/files/17867096/simple_timecode_test_bug_repro.zip",
+        "archive_bytes": 373431,
+        "archive_sha256": "e3a95b7ff9c99edab5b0b3b94414681886f7e1c90ae0ddf30805ed681e9eb9a2",
+        "member": "test_pattern_media_1920x1080_24_DNxHD-LB-tc-zero.mov"
+      }
+    },
+    {
+      "path": "inputs/1003d4461cd64b7371c1c1594c93c9ac2fa64aaa.aaf",
+      "bytes": 133076,
+      "git_blob_sha": "1003d4461cd64b7371c1c1594c93c9ac2fa64aaa",
+      "role": "aaf",
+      "source": {
+        "url": "https://github.com/markreidvfx/pyaaf2/files/3306733/aaf_mxf_style.zip",
+        "archive_bytes": 45786,
+        "archive_sha256": "314c1f053040d000b74d12f0c9a3c1a0a26518f0dccff87e9ffc1c427e277d6b",
+        "member": "aaf_mxf_style.AAF"
+      }
+    },
+    {
+      "path": "inputs/9886df4e6cd529e75f7777c2a9293e5a27770cec.aaf",
+      "bytes": 266752,
+      "git_blob_sha": "9886df4e6cd529e75f7777c2a9293e5a27770cec",
+      "role": "aaf",
+      "source": {
+        "url": "https://github.com/markreidvfx/pyaaf2/files/2945559/protools.zip",
+        "archive_bytes": 41596,
+        "archive_sha256": "ae3cf68a4a4fb689f79b79982acf80a48580be829fe15ece34631085e06768b4",
+        "member": "protools.aaf"
+      }
+    },
+    {
+      "path": "media/pyaaf2-37/protoolszwzgJYBRydbrQTWV.wav",
+      "bytes": 121512,
+      "git_blob_sha": "c28b84df8167f4bc9f82d148a165c2b90c92011b",
+      "role": "media",
+      "source": {
+        "url": "https://github.com/markreidvfx/pyaaf2/files/2945559/protools.zip",
+        "archive_bytes": 41596,
+        "archive_sha256": "ae3cf68a4a4fb689f79b79982acf80a48580be829fe15ece34631085e06768b4",
+        "member": "protoolszwzgJYBRydbrQTWV.wav"
+      }
+    },
+    {
+      "path": "inputs/6429ae4350ebc1deb5ea432641f4f056dd30513a.aaf",
+      "bytes": 352256,
+      "git_blob_sha": "6429ae4350ebc1deb5ea432641f4f056dd30513a",
+      "role": "aaf",
+      "source": {
+        "url": "https://github.com/markreidvfx/pyaaf2/files/1878389/aafs.zip",
+        "archive_bytes": 84295,
+        "archive_sha256": "7fdea6cdf5a35e058b43d9638776d244cdb72e3730080546204d699ff09474e0",
+        "member": "avid.aaf"
+      }
+    },
+    {
+      "path": "inputs/89b52de04d83109220a5056c628b1962045f3555.aaf",
+      "bytes": 389120,
+      "git_blob_sha": "89b52de04d83109220a5056c628b1962045f3555",
+      "role": "aaf",
+      "source": {
+        "url": "https://github.com/markreidvfx/pyaaf2/files/1878389/aafs.zip",
+        "archive_bytes": 84295,
+        "archive_sha256": "7fdea6cdf5a35e058b43d9638776d244cdb72e3730080546204d699ff09474e0",
+        "member": "pyaaf2.aaf"
+      }
+    },
+    {
+      "path": "inputs/af63fdb4df6198e43134405b65fda2c9ef3e24a5.aaf",
+      "bytes": 1654784,
+      "git_blob_sha": "af63fdb4df6198e43134405b65fda2c9ef3e24a5",
+      "role": "aaf",
+      "source": {
+        "url": "https://github.com/markreidvfx/pyaaf2/files/1820597/example2.zip",
+        "archive_bytes": 682535,
+        "archive_sha256": "71b9b3c70ba3f66908c4258ffabf76692093d917dcd3a80386c8adb389a1e786",
+        "member": "example2.aaf"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "03178e8126ca0869931d93b0e651c6d4d2cc7cb4",
+      "asset": "inputs/03178e8126ca0869931d93b0e651c6d4d2cc7cb4.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/subclip_sourceclip_references_compositionmob_with_mastermob.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/subclip_sourceclip_references_compositionmob_with_mastermob.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "050f8e390690b675a63dc398afea96290d1bdde4",
+      "asset": "inputs/050f8e390690b675a63dc398afea96290d1bdde4.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_UTF8_EssencePath.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_UTF8_EssencePath.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "06ccd493227a6f5d19c59dfd744fdeb78e746321",
+      "asset": "inputs/06ccd493227a6f5d19c59dfd744fdeb78e746321.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PR_Clip_length_beyond_EOF.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PR_Clip_length_beyond_EOF.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "08cc7820141def78b879712d865fbc308f83b2ec",
+      "asset": "inputs/08cc7820141def78b879712d865fbc308f83b2ec.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_120_DF.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_120_DF.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "0b56704f063b9a9aaeccf72667e35f3b96543d91",
+      "asset": "inputs/0b56704f063b9a9aaeccf72667e35f3b96543d91.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/transitions.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/transitions.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "0bd8b4fc42cfaea4a6b29cddadc4049f3b5d6e60",
+      "asset": "inputs/0bd8b4fc42cfaea4a6b29cddadc4049f3b5d6e60.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "dneg/aaf",
+          "commit": "dfc1931bde150b368b50a1f7121f3d9f4305d2da",
+          "path": "examples/com-api/ExportJPEG/ExportJPEG_NoCodecDef.aaf",
+          "url": "https://github.com/dneg/aaf/blob/dfc1931bde150b368b50a1f7121f3d9f4305d2da/examples/com-api/ExportJPEG/ExportJPEG_NoCodecDef.aaf"
+        },
+        {
+          "repository": "nexgenta/aaf",
+          "commit": "68cc62ed893d43204b5919d4b34d3eab6b0050b9",
+          "path": "examples/com-api/ExportJPEG/ExportJPEG_NoCodecDef.aaf",
+          "url": "https://github.com/nexgenta/aaf/blob/68cc62ed893d43204b5919d4b34d3eab6b0050b9/examples/com-api/ExportJPEG/ExportJPEG_NoCodecDef.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/dneg__aaf"
+      ]
+    },
+    {
+      "id": "0f03ce8893bf77fdf18fe2d6b913b23d66e9020e",
+      "asset": "inputs/0f03ce8893bf77fdf18fe2d6b913b23d66e9020e.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/normalclip_sourceclip_references_compositionmob_with_usercomments_no_mastermob_usercomments.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/normalclip_sourceclip_references_compositionmob_with_usercomments_no_mastermob_usercomments.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "1003d4461cd64b7371c1c1594c93c9ac2fa64aaa",
+      "asset": "inputs/1003d4461cd64b7371c1c1594c93c9ac2fa64aaa.aaf",
+      "expectation": "unsupported_mxf",
+      "origins": [
+        {
+          "issue": "https://github.com/markreidvfx/pyaaf2/issues/53",
+          "path": "aaf_mxf_style.AAF",
+          "url": "https://github.com/markreidvfx/pyaaf2/files/3306733/aaf_mxf_style.zip"
+        }
+      ],
+      "media_roots": [
+        "media/pyaaf2-53"
+      ]
+    },
+    {
+      "id": "10d06dfbcf09c3074ac1131e71501e223a5c2920",
+      "asset": "inputs/10d06dfbcf09c3074ac1131e71501e223a5c2920.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/30fps.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/30fps.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "14f03b94df1bd639ed420dcd89c4e642bbd32295",
+      "asset": "inputs/14f03b94df1bd639ed420dcd89c4e642bbd32295.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "issue": "https://github.com/markreidvfx/pyaaf2/issues/130",
+          "path": "3dwarpbezier.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/files/14562887/3dwarpbezier.aaf.zip"
+        }
+      ],
+      "media_roots": [
+        "media/pyaaf2-130"
+      ]
+    },
+    {
+      "id": "18271a7dc96e61f21924bf743c76254a9b02edb8",
+      "asset": "inputs/18271a7dc96e61f21924bf743c76254a9b02edb8.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/normalclip_sourceclip_references_compositionmob_has_also_mastermob_usercomments.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/normalclip_sourceclip_references_compositionmob_has_also_mastermob_usercomments.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "19747d1635797b3eed0928105ceb854a88d0633a",
+      "asset": "inputs/19747d1635797b3eed0928105ceb854a88d0633a.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_WAV_External_sub_directory.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_WAV_External_sub_directory.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "1dbe7124e1886fc3850256f70042634aeac80391",
+      "asset": "inputs/1dbe7124e1886fc3850256f70042634aeac80391.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_29.97_DF.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_29.97_DF.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "1ff9b570498b2eb1604d9a1cc937a34552453333",
+      "asset": "inputs/1ff9b570498b2eb1604d9a1cc937a34552453333.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/nesting_test_preflattened.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/nesting_test_preflattened.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "210e25619d948222126ba851571ebede4ec7c460",
+      "asset": "inputs/210e25619d948222126ba851571ebede4ec7c460.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf2",
+          "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+          "path": "tests/test_files/retimes/linear02.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/blob/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/linear02.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf2"
+      ]
+    },
+    {
+      "id": "213fbb48183045a4da1999674a1cab37d972fca9",
+      "asset": "inputs/213fbb48183045a4da1999674a1cab37d972fca9.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_59.94_NDF.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_59.94_NDF.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "26c61578c8f58d3a434a6301482a15600db39f75",
+      "asset": "inputs/26c61578c8f58d3a434a6301482a15600db39f75.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_lang_de.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_de.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "29fab6b0690d434a95cabc245f0ae8803c37f8d6",
+      "asset": "inputs/29fab6b0690d434a95cabc245f0ae8803c37f8d6.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_WAV_External_same_directory.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_WAV_External_same_directory.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "2badf5babb5942f4e9133051b9c37b50f83e241b",
+      "asset": "inputs/2badf5babb5942f4e9133051b9c37b50f83e241b.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf",
+          "commit": "223daf3e60d098ec3d87d9138b8cabe2cf7b454b",
+          "path": "tests/files/retime.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf/blob/223daf3e60d098ec3d87d9138b8cabe2cf7b454b/tests/files/retime.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf"
+      ]
+    },
+    {
+      "id": "2dfe2d009924fb50037b73eb7187ffe76caf3bc1",
+      "asset": "inputs/2dfe2d009924fb50037b73eb7187ffe76caf3bc1.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/nesting_test.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/nesting_test.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "2e9b4affd3a1fd4d92bcdd61ff4fb5f8017a30a8",
+      "asset": "inputs/2e9b4affd3a1fd4d92bcdd61ff4fb5f8017a30a8.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/linear_speed_effects.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/linear_speed_effects.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "2f756154058a1b3a977570ba2818509c1a011d27",
+      "asset": "inputs/2f756154058a1b3a977570ba2818509c1a011d27.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/duplicates.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/duplicates.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "2fe2aa06000d5ba1a0541cd1336c867b8cc90ab5",
+      "asset": "inputs/2fe2aa06000d5ba1a0541cd1336c867b8cc90ab5.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_Clip_Mute.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Clip_Mute.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "323b527046ad8ae43b65c6c9d42897e92a62d21e",
+      "asset": "inputs/323b527046ad8ae43b65c6c9d42897e92a62d21e.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf2",
+          "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+          "path": "tests/test_files/retimes/bezier01.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/blob/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/bezier01.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf2"
+      ]
+    },
+    {
+      "id": "35de3389220a936726240fbaf29260f7e22ec848",
+      "asset": "inputs/35de3389220a936726240fbaf29260f7e22ec848.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/one_audio_clip.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/one_audio_clip.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "369b0e0d3d160d882ac35789bc8280a151c2e389",
+      "asset": "inputs/369b0e0d3d160d882ac35789bc8280a151c2e389.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_25.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_25.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "37a55ef878193eb6919e93f05aef7e2b02460df3",
+      "asset": "inputs/37a55ef878193eb6919e93f05aef7e2b02460df3.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/avid_data_track_example.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/avid_data_track_example.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "3855ed7f5e30709f12788d273f056ab93a2d06b3",
+      "asset": "inputs/3855ed7f5e30709f12788d273f056ab93a2d06b3.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/multiple_markers.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/multiple_markers.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "39632c15ab2bbde262d03a7c334feb638984bd64",
+      "asset": "inputs/39632c15ab2bbde262d03a7c334feb638984bd64.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_120_NDF.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_120_NDF.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "3defe9a12426e885caed1dcc3641e123d6529cf8",
+      "asset": "inputs/3defe9a12426e885caed1dcc3641e123d6529cf8.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/timecode_test.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/timecode_test.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "3e65a7da0a57f4b94d3976ff38150029bc7687f3",
+      "asset": "inputs/3e65a7da0a57f4b94d3976ff38150029bc7687f3.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "issue": "https://github.com/markreidvfx/pyaaf2/issues/97",
+          "path": "TestMarkers.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/files/7304244/TestMarkers.aaf.zip"
+        }
+      ],
+      "media_roots": [
+        "media/pyaaf2-97"
+      ]
+    },
+    {
+      "id": "42806d112eadc498e9f9e24e36e30025790f3c22",
+      "asset": "inputs/42806d112eadc498e9f9e24e36e30025790f3c22.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_119.88_NDF.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_119.88_NDF.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "42a98a0f8ce0f522015cd8e7ca486982397f2a91",
+      "asset": "inputs/42a98a0f8ce0f522015cd8e7ca486982397f2a91.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "iluvcapra/rust-aaf",
+          "commit": "bed9ac422081ec495a4f8e1571f1ad442c244352",
+          "path": "testmedia/AAF_Test_1/AAF_Test_1.aaf",
+          "url": "https://github.com/iluvcapra/rust-aaf/blob/bed9ac422081ec495a4f8e1571f1ad442c244352/testmedia/AAF_Test_1/AAF_Test_1.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/iluvcapra__rust-aaf"
+      ]
+    },
+    {
+      "id": "45791a1bdf4ed15064ee17e10ccbd89c555e6a8a",
+      "asset": "inputs/45791a1bdf4ed15064ee17e10ccbd89c555e6a8a.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf2",
+          "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+          "path": "tests/test_files/retimes/spline02.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/blob/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/spline02.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf2"
+      ]
+    },
+    {
+      "id": "4903865d61e8fe8386438839412afa8470434899",
+      "asset": "inputs/4903865d61e8fe8386438839412afa8470434899.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/multitrack.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/multitrack.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "4c6cceb09b3b0746b44ed612188aa7b159727c0a",
+      "asset": "inputs/4c6cceb09b3b0746b44ed612188aa7b159727c0a.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_Markers.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Markers.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "4e57a300907aa18fea6e0d0336ff06f2281cc3b5",
+      "asset": "inputs/4e57a300907aa18fea6e0d0336ff06f2281cc3b5.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_Multichannel_stereo_multi_source.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_Multichannel_stereo_multi_source.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "4ef84b1c559c0bd4fc0b7398df4d80ae6dc875a6",
+      "asset": "inputs/4ef84b1c559c0bd4fc0b7398df4d80ae6dc875a6.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_lang_zh_TW.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_zh_TW.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "4fd9a59463ebf9050a0f8aa7f377efa21eac15fc",
+      "asset": "inputs/4fd9a59463ebf9050a0f8aa7f377efa21eac15fc.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_Fades_no_handles.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_Fades_no_handles.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "552f79dd30748f5e6cf703cc4ec31e5918c614d3",
+      "asset": "inputs/552f79dd30748f5e6cf703cc4ec31e5918c614d3.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_24.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_24.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "580aec537fdefb30187a0265497d5f6bc71c39b4",
+      "asset": "inputs/580aec537fdefb30187a0265497d5f6bc71c39b4.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/DR_Stereo_Clip_Positioning.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Stereo_Clip_Positioning.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "59bfa1983df30adbfd291ce48c8b49e689c076bb",
+      "asset": "inputs/59bfa1983df30adbfd291ce48c8b49e689c076bb.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_lang_fr.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_fr.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "5af9f32c8b9a086516e6ca841d0eb60b9a1d7bee",
+      "asset": "inputs/5af9f32c8b9a086516e6ca841d0eb60b9a1d7bee.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_AIFF_External.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_AIFF_External.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "5b228166b0fd200a2d3ea765e942fb8f5fd17404",
+      "asset": "inputs/5b228166b0fd200a2d3ea765e942fb8f5fd17404.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf2",
+          "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+          "path": "tests/test_files/retimes/spline01.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/blob/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/spline01.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf2"
+      ]
+    },
+    {
+      "id": "5c0748870550762db3b748fb80f0ebd53c195189",
+      "asset": "inputs/5c0748870550762db3b748fb80f0ebd53c195189.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf2",
+          "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+          "path": "tests/test_files/retimes/bezier03.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/blob/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/bezier03.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf2"
+      ]
+    },
+    {
+      "id": "5e80343c71112587fc4c608643fe0691883b0d0f",
+      "asset": "inputs/5e80343c71112587fc4c608643fe0691883b0d0f.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/DR_Multichannel_7.1_single_source.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Multichannel_7.1_single_source.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "60d15b66515662b62f5ed3a95eee25ec8c298753",
+      "asset": "inputs/60d15b66515662b62f5ed3a95eee25ec8c298753.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_60_NDF.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_60_NDF.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "610eb06f2079dd32caa06d059c8947d8f3d219e1",
+      "asset": "inputs/610eb06f2079dd32caa06d059c8947d8f3d219e1.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_59.94_DF.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_59.94_DF.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "618cf8aa0a928775578cb173e5d313a70110e999",
+      "asset": "inputs/618cf8aa0a928775578cb173e5d313a70110e999.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/preflattened.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/preflattened.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "63c6c18d1319e06a6804dad24d0fa57ad030842e",
+      "asset": "inputs/63c6c18d1319e06a6804dad24d0fa57ad030842e.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_lang_en.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_en.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "6429ae4350ebc1deb5ea432641f4f056dd30513a",
+      "asset": "inputs/6429ae4350ebc1deb5ea432641f4f056dd30513a.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "issue": "https://github.com/markreidvfx/pyaaf2/issues/10",
+          "path": "avid.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/files/1878389/aafs.zip"
+        }
+      ],
+      "media_roots": [
+        "media/pyaaf2-10"
+      ]
+    },
+    {
+      "id": "64a93087de0e5ccbda0685af73aaf2d481445c15",
+      "asset": "inputs/64a93087de0e5ccbda0685af73aaf2d481445c15.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/multiple-markers-over-transitions.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/multiple-markers-over-transitions.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "6591d61892b7778d91a99106bb470765a1814bd0",
+      "asset": "inputs/6591d61892b7778d91a99106bb470765a1814bd0.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_Audio_Warp.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Audio_Warp.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "68b8d1385533fcc3366ca45ac7746c379437cc25",
+      "asset": "inputs/68b8d1385533fcc3366ca45ac7746c379437cc25.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/nested_audio_dissolve.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/nested_audio_dissolve.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "6ba546eccf85e33737e5a11d688a84e9e5ae07c1",
+      "asset": "inputs/6ba546eccf85e33737e5a11d688a84e9e5ae07c1.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "issue": "https://github.com/OpenTimelineIO/otio-aaf-adapter/issues/53",
+          "path": "simple_timecode_test.aaf",
+          "url": "https://github.com/user-attachments/files/17867096/simple_timecode_test_bug_repro.zip"
+        }
+      ],
+      "media_roots": [
+        "media/otio-53"
+      ]
+    },
+    {
+      "id": "6d18e891165d009091ab0dfb8fd5edababdc826f",
+      "asset": "inputs/6d18e891165d009091ab0dfb8fd5edababdc826f.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/colored_clips.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/colored_clips.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "6e52feb82d45656f3e376eba0a83fd96710e03a6",
+      "asset": "inputs/6e52feb82d45656f3e376eba0a83fd96710e03a6.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "dneg/aaf",
+          "commit": "dfc1931bde150b368b50a1f7121f3d9f4305d2da",
+          "path": "examples/com-api/ExportPCM/ExportPCM_NoCodecDef.aaf",
+          "url": "https://github.com/dneg/aaf/blob/dfc1931bde150b368b50a1f7121f3d9f4305d2da/examples/com-api/ExportPCM/ExportPCM_NoCodecDef.aaf"
+        },
+        {
+          "repository": "nexgenta/aaf",
+          "commit": "68cc62ed893d43204b5919d4b34d3eab6b0050b9",
+          "path": "examples/com-api/ExportPCM/ExportPCM_NoCodecDef.aaf",
+          "url": "https://github.com/nexgenta/aaf/blob/68cc62ed893d43204b5919d4b34d3eab6b0050b9/examples/com-api/ExportPCM/ExportPCM_NoCodecDef.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/dneg__aaf"
+      ]
+    },
+    {
+      "id": "703570eaa4a7472fab56a14a06ab469e42a8e0e4",
+      "asset": "inputs/703570eaa4a7472fab56a14a06ab469e42a8e0e4.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_Audio_Pan.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Audio_Pan.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "71e29595535b09a5162e043cc2d20391a349a886",
+      "asset": "inputs/71e29595535b09a5162e043cc2d20391a349a886.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/DR_Empty.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Empty.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "76f317d487689e8c7fd75faf26ffb7c72b42f031",
+      "asset": "inputs/76f317d487689e8c7fd75faf26ffb7c72b42f031.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/nested_stack.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/nested_stack.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "77775811359f86cfea658fdfd02dba34e5b3fd99",
+      "asset": "inputs/77775811359f86cfea658fdfd02dba34e5b3fd99.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf2",
+          "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+          "path": "tests/test_files/retimes/step02.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/blob/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/step02.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf2"
+      ]
+    },
+    {
+      "id": "7802e2201146a76872b867de9966a8e001d09fcc",
+      "asset": "inputs/7802e2201146a76872b867de9966a8e001d09fcc.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/essence_group.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/essence_group.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "78c0fa1579a58f98ed3f2ad921facdb22da705c5",
+      "asset": "inputs/78c0fa1579a58f98ed3f2ad921facdb22da705c5.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "dneg/aaf",
+          "commit": "dfc1931bde150b368b50a1f7121f3d9f4305d2da",
+          "path": "examples/com-api/ExportDV/ExportDV_NoCodecDef.aaf",
+          "url": "https://github.com/dneg/aaf/blob/dfc1931bde150b368b50a1f7121f3d9f4305d2da/examples/com-api/ExportDV/ExportDV_NoCodecDef.aaf"
+        },
+        {
+          "repository": "nexgenta/aaf",
+          "commit": "68cc62ed893d43204b5919d4b34d3eab6b0050b9",
+          "path": "examples/com-api/ExportDV/ExportDV_NoCodecDef.aaf",
+          "url": "https://github.com/nexgenta/aaf/blob/68cc62ed893d43204b5919d4b34d3eab6b0050b9/examples/com-api/ExportDV/ExportDV_NoCodecDef.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/dneg__aaf"
+      ]
+    },
+    {
+      "id": "78cb1abb57d0be38d2c626790b7843723511de64",
+      "asset": "inputs/78cb1abb57d0be38d2c626790b7843723511de64.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/DR_MP3_External.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_MP3_External.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "799ba99f77133df8745f0b3723fcc8b4fe4a6e4c",
+      "asset": "inputs/799ba99f77133df8745f0b3723fcc8b4fe4a6e4c.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "issue": "https://github.com/OpenTimelineIO/otio-aaf-adapter/issues/65",
+          "path": "punchline.aaf",
+          "url": "https://github.com/user-attachments/files/22491259/punchline.zip"
+        }
+      ],
+      "media_roots": [
+        "media/otio-65"
+      ]
+    },
+    {
+      "id": "7de166f748586aa0149f04ef9a15f2b670db99ac",
+      "asset": "inputs/7de166f748586aa0149f04ef9a15f2b670db99ac.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf",
+          "commit": "223daf3e60d098ec3d87d9138b8cabe2cf7b454b",
+          "path": "tests/files/test_file_01.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf/blob/223daf3e60d098ec3d87d9138b8cabe2cf7b454b/tests/files/test_file_01.aaf"
+        },
+        {
+          "repository": "markreidvfx/pyaaf2",
+          "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+          "path": "tests/test_files/test_file_01.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/blob/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/test_file_01.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf"
+      ]
+    },
+    {
+      "id": "7e400cd2fca1a9eb423424f69f3d055187a3096e",
+      "asset": "inputs/7e400cd2fca1a9eb423424f69f3d055187a3096e.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_30_NDF.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_30_NDF.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "80207c949f9fc3f753b4b5357ea0e784eb75d33c",
+      "asset": "inputs/80207c949f9fc3f753b4b5357ea0e784eb75d33c.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "issue": "https://github.com/OpenTimelineIO/otio-aaf-adapter/issues/61",
+          "path": "TitlesTest_EmpterMetadataKey_190528.aaf",
+          "url": "https://github.com/PixarAnimationStudios/OpenTimelineIO/files/3225340/TitlesTest_EmptyMetadataKey_190528.aaf.zip"
+        }
+      ],
+      "media_roots": [
+        "media/otio-61"
+      ]
+    },
+    {
+      "id": "806a8d05b786a4ecf86e66946b5595a70df89452",
+      "asset": "inputs/806a8d05b786a4ecf86e66946b5595a70df89452.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_lang_ja.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_ja.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "81a09225c9b869d43a51a33071c9aba36d0a5ade",
+      "asset": "inputs/81a09225c9b869d43a51a33071c9aba36d0a5ade.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/simple.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/simple.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "84fb0d0ce2ddffd2a7f7241a0ba25058745bd765",
+      "asset": "inputs/84fb0d0ce2ddffd2a7f7241a0ba25058745bd765.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_PCM_Internal.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_PCM_Internal.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "876ae7f64c189678888e6bc67c906bcd70eb63c0",
+      "asset": "inputs/876ae7f64c189678888e6bc67c906bcd70eb63c0.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/DR_Multichannel_5.1_single_source.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Multichannel_5.1_single_source.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "87f441f47f9df0b0e71fe4f12ebf7702eaf3aee8",
+      "asset": "inputs/87f441f47f9df0b0e71fe4f12ebf7702eaf3aee8.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "dneg/aaf",
+          "commit": "dfc1931bde150b368b50a1f7121f3d9f4305d2da",
+          "path": "test/com/OpenExistingModify/AAFHeaderTest_v102.aaf",
+          "url": "https://github.com/dneg/aaf/blob/dfc1931bde150b368b50a1f7121f3d9f4305d2da/test/com/OpenExistingModify/AAFHeaderTest_v102.aaf"
+        },
+        {
+          "repository": "nexgenta/aaf",
+          "commit": "68cc62ed893d43204b5919d4b34d3eab6b0050b9",
+          "path": "test/com/OpenExistingModify/AAFHeaderTest_v102.aaf",
+          "url": "https://github.com/nexgenta/aaf/blob/68cc62ed893d43204b5919d4b34d3eab6b0050b9/test/com/OpenExistingModify/AAFHeaderTest_v102.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/dneg__aaf"
+      ]
+    },
+    {
+      "id": "89b52de04d83109220a5056c628b1962045f3555",
+      "asset": "inputs/89b52de04d83109220a5056c628b1962045f3555.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "issue": "https://github.com/markreidvfx/pyaaf2/issues/10",
+          "path": "pyaaf2.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/files/1878389/aafs.zip"
+        }
+      ],
+      "media_roots": [
+        "media/pyaaf2-10"
+      ]
+    },
+    {
+      "id": "89c0577f42a082b4e672488ca7b99de0b4710659",
+      "asset": "inputs/89c0577f42a082b4e672488ca7b99de0b4710659.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "dneg/aaf",
+          "commit": "dfc1931bde150b368b50a1f7121f3d9f4305d2da",
+          "path": "examples/com-api/ExportAudioExample/ExportAudioExample_NoCodecDef.aaf",
+          "url": "https://github.com/dneg/aaf/blob/dfc1931bde150b368b50a1f7121f3d9f4305d2da/examples/com-api/ExportAudioExample/ExportAudioExample_NoCodecDef.aaf"
+        },
+        {
+          "repository": "nexgenta/aaf",
+          "commit": "68cc62ed893d43204b5919d4b34d3eab6b0050b9",
+          "path": "examples/com-api/ExportAudioExample/ExportAudioExample_NoCodecDef.aaf",
+          "url": "https://github.com/nexgenta/aaf/blob/68cc62ed893d43204b5919d4b34d3eab6b0050b9/examples/com-api/ExportAudioExample/ExportAudioExample_NoCodecDef.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/dneg__aaf"
+      ]
+    },
+    {
+      "id": "8c5c8e43fb3eae090717e77853b1266b6e57a8fa",
+      "asset": "inputs/8c5c8e43fb3eae090717e77853b1266b6e57a8fa.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PR_WAV_Internal.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PR_WAV_Internal.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "8d9b088f8bde263ffef1f4c5c8674e42cfcd075e",
+      "asset": "inputs/8d9b088f8bde263ffef1f4c5c8674e42cfcd075e.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_Track_Solo_Mute.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Track_Solo_Mute.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "9135acc8c6bb8358e3e6b2b809bbbd14bc7d9ca7",
+      "asset": "inputs/9135acc8c6bb8358e3e6b2b809bbbd14bc7d9ca7.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PR_AIFF_Internal.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PR_AIFF_Internal.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "915c17605928688febacf5af0c6aa6c9ba296926",
+      "asset": "inputs/915c17605928688febacf5af0c6aa6c9ba296926.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_MXF_External.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_MXF_External.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "9886df4e6cd529e75f7777c2a9293e5a27770cec",
+      "asset": "inputs/9886df4e6cd529e75f7777c2a9293e5a27770cec.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "issue": "https://github.com/markreidvfx/pyaaf2/issues/37",
+          "path": "protools.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/files/2945559/protools.zip"
+        }
+      ],
+      "media_roots": [
+        "media/pyaaf2-37"
+      ]
+    },
+    {
+      "id": "9a87f788f81db84ab4ef154807153c51c391ff8a",
+      "asset": "inputs/9a87f788f81db84ab4ef154807153c51c391ff8a.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/DR_Mono_Clip_Positioning.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Mono_Clip_Positioning.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "9add76b0c22fe3b0e4f456fbb5f20200aceac43e",
+      "asset": "inputs/9add76b0c22fe3b0e4f456fbb5f20200aceac43e.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/2997fps.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/2997fps.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "9d26cfd47c5837695595eb775bcbe2f78ea2a1e3",
+      "asset": "inputs/9d26cfd47c5837695595eb775bcbe2f78ea2a1e3.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_Audio_Levels-noEMCC-noExpTracksAsMultiChannel.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_Audio_Levels-noEMCC-noExpTracksAsMultiChannel.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "9f081ad3f28269a1a3f717427c23cfc8ba9ea721",
+      "asset": "inputs/9f081ad3f28269a1a3f717427c23cfc8ba9ea721.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/bad_marker_track_from_avid.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/bad_marker_track_from_avid.aaf"
+        },
+        {
+          "issue": "https://github.com/OpenTimelineIO/otio-aaf-adapter/issues/40",
+          "path": "bad_marker_track_from_avid.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/files/14288603/bad_marker_track_from_avid.aaf.zip"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "a23196b2f1385371817e518914d8abb1ac027b51",
+      "asset": "inputs/a23196b2f1385371817e518914d8abb1ac027b51.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PR_Audio_Levels-noBTM.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PR_Audio_Levels-noBTM.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "a27d5e9b6cbc1f6c7253d83044c79301d3b971b9",
+      "asset": "inputs/a27d5e9b6cbc1f6c7253d83044c79301d3b971b9.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "issue": "https://github.com/markreidvfx/pyaaf2/issues/80",
+          "path": "AafTest.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/files/4660181/AafTest.aaf.zip"
+        }
+      ],
+      "media_roots": [
+        "media/pyaaf2-80"
+      ]
+    },
+    {
+      "id": "a2cf2b94fe00406e70e5d4a01cac32cd05bb7fb5",
+      "asset": "inputs/a2cf2b94fe00406e70e5d4a01cac32cd05bb7fb5.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/multiple_top_level_mobs.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/multiple_top_level_mobs.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "a39847d3a65753fb037b38f47098f6a45b9a47ff",
+      "asset": "inputs/a39847d3a65753fb037b38f47098f6a45b9a47ff.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/misc_speed_effects.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/misc_speed_effects.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "a3cb72590262069227ad46ff744958c65f442975",
+      "asset": "inputs/a3cb72590262069227ad46ff744958c65f442975.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf2",
+          "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+          "path": "tests/test_files/retimes/step03.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/blob/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/step03.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf2"
+      ]
+    },
+    {
+      "id": "a3ce1e5fa028d553a8444184820cd9a3dc5b3198",
+      "asset": "inputs/a3ce1e5fa028d553a8444184820cd9a3dc5b3198.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_30_DF.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_30_DF.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "a6b129c50d4285ba3a56e078997922f4f43434f4",
+      "asset": "inputs/a6b129c50d4285ba3a56e078997922f4f43434f4.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PR_WAV_External_sub_sub_directory_UTF8.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PR_WAV_External_sub_sub_directory_UTF8.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "a6dc0238feed0010d7b4c0d9df995886b57f0e71",
+      "asset": "inputs/a6dc0238feed0010d7b4c0d9df995886b57f0e71.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_Audio_Levels.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Audio_Levels.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "ab36e7f61ab156a990da683e7025c58887935c3e",
+      "asset": "inputs/ab36e7f61ab156a990da683e7025c58887935c3e.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/utf8.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/utf8.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "ae2d353c57b1a9e95ff018d303d79a63c785ac06",
+      "asset": "inputs/ae2d353c57b1a9e95ff018d303d79a63c785ac06.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_29.97_NDF.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_29.97_NDF.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "af63fdb4df6198e43134405b65fda2c9ef3e24a5",
+      "asset": "inputs/af63fdb4df6198e43134405b65fda2c9ef3e24a5.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "issue": "https://github.com/markreidvfx/pyaaf2/issues/8",
+          "path": "example2.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/files/1820597/example2.zip"
+        }
+      ],
+      "media_roots": [
+        "media/pyaaf2-8"
+      ]
+    },
+    {
+      "id": "b62af18123c6c398b5b8be52a0b8aad27e2936eb",
+      "asset": "inputs/b62af18123c6c398b5b8be52a0b8aad27e2936eb.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PR_Fades.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PR_Fades.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "b668685ad4ace46879b70bdca2baa7bbc0bb7fe4",
+      "asset": "inputs/b668685ad4ace46879b70bdca2baa7bbc0bb7fe4.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "dneg/aaf",
+          "commit": "dfc1931bde150b368b50a1f7121f3d9f4305d2da",
+          "path": "test/com/MemoryLeakTest/RealWorldSample1.aaf",
+          "url": "https://github.com/dneg/aaf/blob/dfc1931bde150b368b50a1f7121f3d9f4305d2da/test/com/MemoryLeakTest/RealWorldSample1.aaf"
+        },
+        {
+          "repository": "nexgenta/aaf",
+          "commit": "68cc62ed893d43204b5919d4b34d3eab6b0050b9",
+          "path": "test/com/MemoryLeakTest/RealWorldSample1.aaf",
+          "url": "https://github.com/nexgenta/aaf/blob/68cc62ed893d43204b5919d4b34d3eab6b0050b9/test/com/MemoryLeakTest/RealWorldSample1.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/dneg__aaf"
+      ]
+    },
+    {
+      "id": "b7e5703494f28b9f987e5fa06e8c6bf2a71e2759",
+      "asset": "inputs/b7e5703494f28b9f987e5fa06e8c6bf2a71e2759.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/time_warp_test.avid_media_composer.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/time_warp_test.avid_media_composer.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "bcec38d8bd833de5324de37b582fae2cccc41a64",
+      "asset": "inputs/bcec38d8bd833de5324de37b582fae2cccc41a64.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/picchu_seq0100_snippet_embedded.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/picchu_seq0100_snippet_embedded.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "bf9174d4ec2e51c592b7cec8c0898ed5f183aeb5",
+      "asset": "inputs/bf9174d4ec2e51c592b7cec8c0898ed5f183aeb5.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/marker-over-transition.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/marker-over-transition.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "c0e24dc3784881ff0a1c46c26df7b0048735d036",
+      "asset": "inputs/c0e24dc3784881ff0a1c46c26df7b0048735d036.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PR_Audio_Pan-noBTM.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PR_Audio_Pan-noBTM.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "c24f00b3a669f0044747ac70c9d5d1ad068d8b0f",
+      "asset": "inputs/c24f00b3a669f0044747ac70c9d5d1ad068d8b0f.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/composite.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/composite.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "c29a263a35b20cd493709554588a8c3b96d5eb96",
+      "asset": "inputs/c29a263a35b20cd493709554588a8c3b96d5eb96.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_Multichannel_7.1_multi_source.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_Multichannel_7.1_multi_source.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "c2c2aff8a893b738b4412857ac7527797e71104d",
+      "asset": "inputs/c2c2aff8a893b738b4412857ac7527797e71104d.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf2",
+          "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+          "path": "tests/test_files/retimes/linear01.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/blob/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/linear01.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf2"
+      ]
+    },
+    {
+      "id": "c8948a8b26eda08b1f06be4ed55a3dfe9e4e8d1e",
+      "asset": "inputs/c8948a8b26eda08b1f06be4ed55a3dfe9e4e8d1e.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf2",
+          "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+          "path": "tests/test_files/sector_size_512.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/blob/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/sector_size_512.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf2"
+      ]
+    },
+    {
+      "id": "c8ac47dea444f0b94f2ae6730743ab113a7e3a1d",
+      "asset": "inputs/c8ac47dea444f0b94f2ae6730743ab113a7e3a1d.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf2",
+          "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+          "path": "tests/test_files/empty.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/blob/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/empty.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf2"
+      ]
+    },
+    {
+      "id": "ca7551bbb95bc9e01e93963a9b32f1bc22017595",
+      "asset": "inputs/ca7551bbb95bc9e01e93963a9b32f1bc22017595.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/keyframed_properties.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/keyframed_properties.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "cb0e9a612a6c03ba10498809b68ae5fc0f880ab4",
+      "asset": "inputs/cb0e9a612a6c03ba10498809b68ae5fc0f880ab4.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf2",
+          "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+          "path": "tests/test_files/retimes/linear03.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/blob/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/linear03.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf2"
+      ]
+    },
+    {
+      "id": "cb20d7d7fbdddd2334449ee8c0c644f0fef20fe6",
+      "asset": "inputs/cb20d7d7fbdddd2334449ee8c0c644f0fef20fe6.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/DR_Multichannel_stereo_single_source.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Multichannel_stereo_single_source.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "cb96d4d60ca7e976e8084e423b92e094d16e78cf",
+      "asset": "inputs/cb96d4d60ca7e976e8084e423b92e094d16e78cf.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_Multichannel_5.1_multi_source.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_Multichannel_5.1_multi_source.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "cf5cd56af48c5ac06a5f904e6461d702670c07e7",
+      "asset": "inputs/cf5cd56af48c5ac06a5f904e6461d702670c07e7.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_Fades.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Fades.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "d0d335344cf77ecdcc9333843c4e819159b7152a",
+      "asset": "inputs/d0d335344cf77ecdcc9333843c4e819159b7152a.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/marker-over-audio.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/marker-over-audio.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "d4a49d6b3f3d0589b7c3b275a821054cc39bd143",
+      "asset": "inputs/d4a49d6b3f3d0589b7c3b275a821054cc39bd143.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_100.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_100.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "d86e9d69bece1ef5724ec48ce97f4b2f1d437798",
+      "asset": "inputs/d86e9d69bece1ef5724ec48ce97f4b2f1d437798.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_50.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_50.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "d87ebda73d552a665eeed4bb527611b3550b865e",
+      "asset": "inputs/d87ebda73d552a665eeed4bb527611b3550b865e.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_23.976.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_23.976.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "d8857c7c98b0bdd58f79b66e9acbadefe3ad364a",
+      "asset": "inputs/d8857c7c98b0bdd58f79b66e9acbadefe3ad364a.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf2",
+          "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+          "path": "tests/test_files/retimes/spline03.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/blob/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/spline03.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf2"
+      ]
+    },
+    {
+      "id": "db16f255939721d05f31e4e4dec578e9a5fdaa9e",
+      "asset": "inputs/db16f255939721d05f31e4e4dec578e9a5fdaa9e.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_Empty.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Empty.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "e00b8029c915b17e7bc7bb447682f9757a07cbec",
+      "asset": "inputs/e00b8029c915b17e7bc7bb447682f9757a07cbec.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_lang_zh_CN.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_zh_CN.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "e1d0b9a7dbe65c2a7c5be210a8e1309d4ae3692b",
+      "asset": "inputs/e1d0b9a7dbe65c2a7c5be210a8e1309d4ae3692b.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/DR_Markers.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Markers.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "e4953dafdfe8c5f58466de8242678fd89f0c3bee",
+      "asset": "inputs/e4953dafdfe8c5f58466de8242678fd89f0c3bee.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/trims.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/trims.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "e53b2bee80b84331a9cccca419f9969f4b2c9928",
+      "asset": "inputs/e53b2bee80b84331a9cccca419f9969f4b2c9928.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_WAV_External.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_WAV_External.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "e7ae68b6c4d82298f886870caf6ac999f03f0913",
+      "asset": "inputs/e7ae68b6c4d82298f886870caf6ac999f03f0913.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "iluvcapra/rust-aaf",
+          "commit": "bed9ac422081ec495a4f8e1571f1ad442c244352",
+          "path": "testmedia/AAF_Test_1/AAF_Test_1_Embedded.aaf",
+          "url": "https://github.com/iluvcapra/rust-aaf/blob/bed9ac422081ec495a4f8e1571f1ad442c244352/testmedia/AAF_Test_1/AAF_Test_1_Embedded.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/iluvcapra__rust-aaf"
+      ]
+    },
+    {
+      "id": "edcbf4d65813eb32c88f8d3645837cc7f9206260",
+      "asset": "inputs/edcbf4d65813eb32c88f8d3645837cc7f9206260.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/one_clip.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/one_clip.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "ef0d90f2f4cf7c1ac1ad8fef64554f6c28cc7136",
+      "asset": "inputs/ef0d90f2f4cf7c1ac1ad8fef64554f6c28cc7136.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_lang_es.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_es.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "f0c206cf3315a1ed90c119e26b6f1306bff4c601",
+      "asset": "inputs/f0c206cf3315a1ed90c119e26b6f1306bff4c601.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/2997fps-DFTC.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/2997fps-DFTC.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "f1230a67264ba784359b9855d17d8f5715128524",
+      "asset": "inputs/f1230a67264ba784359b9855d17d8f5715128524.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_Fades.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_Fades.aaf"
+        },
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_Fades_A.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_Fades_A.aaf"
+        },
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_Fades_B.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_Fades_B.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "f3a54f414da2004f9c88be1606666f2d23fae7ce",
+      "asset": "inputs/f3a54f414da2004f9c88be1606666f2d23fae7ce.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_Metadata.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_Metadata.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "f497755e3028d37529fd9145871fd49a30a8b57e",
+      "asset": "inputs/f497755e3028d37529fd9145871fd49a30a8b57e.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_60_DF.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_60_DF.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "f4b1c556ccaae0f76b10ff90508e1dc9f7a8d2eb",
+      "asset": "inputs/f4b1c556ccaae0f76b10ff90508e1dc9f7a8d2eb.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/PT_lang_ko.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/PT_lang_ko.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "f52bc5c4eaa09ae43a3587cf2be09d0effd9a835",
+      "asset": "inputs/f52bc5c4eaa09ae43a3587cf2be09d0effd9a835.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf2",
+          "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+          "path": "tests/test_files/retimes/step01.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/blob/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/step01.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf2"
+      ]
+    },
+    {
+      "id": "f614c016b125ab0a378bd32cdd2bceb94e1a137d",
+      "asset": "inputs/f614c016b125ab0a378bd32cdd2bceb94e1a137d.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/multiple_timecode_objects.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/multiple_timecode_objects.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "f7d3b18fe66635d538cee3d6ec07dc385a9d3b5a",
+      "asset": "inputs/f7d3b18fe66635d538cee3d6ec07dc385a9d3b5a.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/DR_Audio_Levels.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/DR_Audio_Levels.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    },
+    {
+      "id": "fa8efebf1fdbc79c82f4bd935da57b1981d88cd9",
+      "asset": "inputs/fa8efebf1fdbc79c82f4bd935da57b1981d88cd9.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "OpenTimelineIO/otio-aaf-adapter",
+          "commit": "47886982d67c00573ad4a565ae51ad0e73f4caff",
+          "path": "tests/sample_data/test_muted_clip.aaf",
+          "url": "https://github.com/OpenTimelineIO/otio-aaf-adapter/blob/47886982d67c00573ad4a565ae51ad0e73f4caff/tests/sample_data/test_muted_clip.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/OpenTimelineIO__otio-aaf-adapter"
+      ]
+    },
+    {
+      "id": "fb5234c174cebe3356ba846032ab75bda500191d",
+      "asset": "inputs/fb5234c174cebe3356ba846032ab75bda500191d.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "markreidvfx/pyaaf2",
+          "commit": "08dcc3dfe823ea5781db1cb657d9c2606557fcdc",
+          "path": "tests/test_files/retimes/bezier02.aaf",
+          "url": "https://github.com/markreidvfx/pyaaf2/blob/08dcc3dfe823ea5781db1cb657d9c2606557fcdc/tests/test_files/retimes/bezier02.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/markreidvfx__pyaaf2"
+      ]
+    },
+    {
+      "id": "fd65fe051412ae9e5bc4402924801166f91d79cb",
+      "asset": "inputs/fd65fe051412ae9e5bc4402924801166f91d79cb.aaf",
+      "expectation": "cfb",
+      "origins": [
+        {
+          "repository": "agfline/LibAAF",
+          "commit": "7925dff4026be06b4edfacdfe458887c2d6503ca",
+          "path": "test/aaf/MC_TC_119.88_DF.aaf",
+          "url": "https://github.com/agfline/LibAAF/blob/7925dff4026be06b4edfacdfe458887c2d6503ca/test/aaf/MC_TC_119.88_DF.aaf"
+        }
+      ],
+      "media_roots": [
+        "media/agfline__LibAAF"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local build environments
+.venv/
+venv/
+env/
+.venv-build/
+
+# PyInstaller and packaging output
+build/
+build_pyinstaller/
+dist/
+dist_pyinstaller/
+*.spec
+*.spec.bak
+
+# AAF toolkit temporary work and diagnostics
+__aaf_tool_work/
+__manual_checks/
+__debug*/
+__debug*
+*.aaf.__lane_norm.aaf
+*.aaf.__lane_norm.xml
+*.aaf.__lane_layout.xml
+*.__sdk_healed.aaf
+*.__sdk_pipeline.xml
+*.__sdk_pipeline_streams/
+*_processed.xml
+regress_local*.json
+local_regress*.json
+
+# User media and generated AAF outputs should not be committed accidentally.
+*.aaf
+*.wav
+*.aif
+*.aiff
+*.mp3
+*.mxf
+*.mov
+*.mp4
+
+
+# Local editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+
+# Transactional build and audit verification output
+dist_pyinstaller.stage-*/
+dist_pyinstaller.previous-*/
+build_audit_wheels/
+.venv-audit-core/
+build_audit.log
+.pyinstaller_build.lock/
+
+# Reproducible external regression corpus cache
+.cache/aaf-corpus/
+
+# Source publication boundaries
+.agents/
+.codex/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.exe
+*.dll
+*.pyd
+*.bin
+*.egg-info/
+.venv-*/
+/tmp*/
+/corpus-test-*/
+/release_source/
+/aaf_tool_config.json
+/regress_corpus.json
+/docs/*-2026-*.md
+/docs/superpowers/
+/scripts/corpora/reviewed_audio_cases.json

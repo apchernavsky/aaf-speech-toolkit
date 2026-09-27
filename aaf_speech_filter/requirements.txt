@@ -1,0 +1,7 @@
+# Перед фильтром (из каталога aaf_speech_filter): pip install -e ../aaf_io
+PyAAF2>=1.7.1,<1.8
+numpy>=1.23
+packaging>=21
+tensorflow>=2.15
+tensorflow-hub>=0.16
+tf-keras>=2.15

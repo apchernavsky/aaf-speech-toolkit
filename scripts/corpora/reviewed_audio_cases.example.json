@@ -1,0 +1,35 @@
+[
+  {
+    "id": "synthetic-example-only",
+    "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "provenance": "Schema example with invented identities; replace using your own reviewed report.",
+    "clips": [
+      {
+        "id": "voice",
+        "source_id": "synthetic-voice",
+        "source_start": 0,
+        "source_length": 48000,
+        "edit_start": 0,
+        "timeline_length": 48000,
+        "kind": "speech",
+        "source_track": 1
+      },
+      {
+        "id": "cue",
+        "source_id": "synthetic-music",
+        "source_start": 0,
+        "source_length": 48000,
+        "edit_start": 0,
+        "timeline_length": 48000,
+        "kind": "music",
+        "source_track": 1
+      }
+    ],
+    "above": [
+      [
+        "voice",
+        "cue"
+      ]
+    ]
+  }
+]
